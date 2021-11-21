@@ -1,0 +1,30 @@
+S -> Dalam S | Dalam
+
+Digit -> '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+Alfabet -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z'
+Spesial -> '!' | '@' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '\' | '_' | '[' | ']' | '<'| '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | '|'
+
+Operator -> '-' | '+' | '*' | '/' | '/' '/' | '*' '*' | '%'
+
+TAB -> '$'
+TABS -> TAB TABS | EEE
+Angka -> Digit Angka | Digit
+
+Spasi -> '~' Spasi | '~'
+SpasiAtauKosong -> Spasi | EEE
+
+ListKarakterA -> Alfabet | '_'
+ListKarakterB -> Alfabet | Spesial | Digit | '''
+ListKarakterC -> Alfabet | Spesial | Digit | '"'
+
+Konstanta -> Angka | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' ListKarakterB '"'
+
+Syarat -> SpasiAtauKosong Boolean SpasiAtauKosong | SpasiAtauKosong '(' SpasiAtauKosong Boolean SpasiAtauKosong ')' SpasiAtauKosong
+Boolean -> VarAtauKonstanta Spasi PembandingBoolean Spasi VarAtauKonstanta | Operasi
+PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | 'a' 'n' 'd' | 'o' 'r' | '|' | '&' | 'i' 's' | 'i' 'n'
+Operasi -> Operasi SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong Operasi
+
+ForA -> 'f' 'o' 'r' Spasi Var Spasi 'i' 'n' Spasi
+ForB -> For0 VarAtauKonstanta SpasiAtauKosong ':' | For0 'r' 'a' 'n' 'g' 'e' '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
+
+While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':'
