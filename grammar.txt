@@ -18,13 +18,27 @@ ListKarakterB -> Alfabet | Spesial | Digit | '''
 ListKarakterC -> Alfabet | Spesial | Digit | '"'
 
 Konstanta -> Angka | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' ListKarakterB '"'
+Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
+Var -> ListKarakterA Var | ListKarakterA Subvar | ListKarakterA
 
-Syarat -> SpasiAtauKosong Boolean SpasiAtauKosong | SpasiAtauKosong '(' SpasiAtauKosong Boolean SpasiAtauKosong ')' SpasiAtauKosong
-Boolean -> VarAtauKonstanta Spasi PembandingBoolean Spasi VarAtauKonstanta | Operasi
+VarAtauKonstanta -> Var | Konstanta
+
+Syarat1 -> SpasiAtauKosong Boolean SpasiAtauKosong 
+Syarat2 -> SpasiAtauKosong '(' SpasiAtauKosong Boolean SpasiAtauKosong ')' SpasiAtauKosong
+Syarat3 -> Syarat1 Spasi SubSyarat3
+Syarat4 -> Syarat2 SubSyarat3
+SubSyarat -> PembandingBoolean Spasi Syarat3 | PembandingBoolean Spasi Syarat4 | PembandingBoolean Spasi Syarat1 | PembandingBoolean Syarat2
+Syarat -> Syarat3 | Syarat4
+
+Boolean1 -> VarAtauKonstanta SpasiAtauKosong PembandingBoolean SpasiAtauKosong VarAtauKonstanta 
+Boolean2 -> VarAtauKonstanta
+Boolean3 -> VarAtauKonstanta SpasiAtauKosong PembandingBoolean SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong Operasi SpasiAtauKosong VarAtauKonstanta
+Boolean -> Boolean1 | Boolean2 | Boolean3
+
 PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | 'a' 'n' 'd' | 'o' 'r' | '|' | '&' | 'i' 's' | 'i' 'n'
-Operasi -> Operasi SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong Operasi
 
 ForA -> 'f' 'o' 'r' Spasi Var Spasi 'i' 'n' Spasi
-ForB -> For0 VarAtauKonstanta SpasiAtauKosong ':' | For0 'r' 'a' 'n' 'g' 'e' '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
+ForB -> ForA VarAtauKonstanta SpasiAtauKosong ':' | ForA 'r' 'a' 'n' 'g' 'e' '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
 
 While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':'
+
