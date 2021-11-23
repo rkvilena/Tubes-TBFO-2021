@@ -1,5 +1,2 @@
-def jun( x , y ):
-    x= y
-    while True :
-        x =1
-    return x*x*x
+with open(454) as None:
+    x == None
