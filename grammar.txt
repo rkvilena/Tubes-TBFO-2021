@@ -1,7 +1,7 @@
-S -> Isi S | Isi
+S -> Isi S | Isi 
 
 Isi -> 'v' '=' Konstanta | 'v' '=' Operasi | HeaderLoop
-HeaderLoop -> For IsiLoop | While HeaderLoop IsiLoop
+HeaderLoop -> For newLine IsiLoop | While HeaderLoop IsiLoop
 
 Operasi -> '(' Operan Operator Operan ')' | Operan Operator Operan
 Operan -> Angka
@@ -43,14 +43,14 @@ Boolean -> Boolean1 | Boolean2 | Boolean3 | Boolean4
 
 PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | 'a' 'n' 'd' | 'o' 'r' | '|' | '&' | 'i' 's' | 'i' 'n'
 
-ForA -> 'f' 'o' 'r'  'v'  'i' 'n' 
-For -> ForA VarAtauKonstanta SpasiAtauKosong ':' | ForA 'r' 'a' 'n' 'g' 'e' '('  VarAtauKonstanta  ')'  ':'
+ForA -> 'f' 'o' 'r' Spasi 'v'  Spasi 'i' 'n' 
+For -> ForA VarAtauKonstanta SpasiAtauKosong ':' | ForA Spasi 'r' 'a' 'n' 'g' 'e' '('  VarAtauKonstanta  ')'  ':'
 
 While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':'
 
-Break -> 'b' 'r' 'e' 'a' 'k' SpasiAtauKosong
-Continue -> 'c' 'o' 'n' 't' 'i' 'n' 'u' 'e' SpasiAtauKosong
+Break -> 'b' 'r' 'e' 'a' 'k'
+Continue -> 'c' 'o' 'n' 't' 'i' 'n' 'u' 'e'
 
-IsiLoop -> Break | Continue 
+IsiLoop -> Break | Continue | S
 
-SpasiAtauKosong -> ' ' | ''
+newLine -> ';'
