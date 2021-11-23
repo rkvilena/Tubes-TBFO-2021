@@ -1,11 +1,10 @@
-S -> Isi S | Isi | Spasi Isi
+S -> Isi S | Isi | Spasi Isi | S newLine S
 
-Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var '=' Konstanta | HeaderLoop | HeaderDef
+Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop
 
-Operasi -> '(' Operan Operator Operan ')' | Operan Operator Operan
-Operan -> Angka
-Operan -> Operasi
+Operasi -> '(' SpasiAtauKosong Operan SpasiAtauKosong Operator SpasiAtauKosong Operan SpasiAtauKosong ')' | Operan SpasiAtauKosong Operator SpasiAtauKosong Operan
+Operan -> Angka | Operasi | Var
 Digit -> '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 Alfabet -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z'
 Spesial -> '!' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '_' | '[' | ']' | '<'| '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | '|'
@@ -33,10 +32,10 @@ VarAtauKonstanta -> Var | Konstanta
 
 Syarat1 -> SpasiAtauKosong Boolean SpasiAtauKosong 
 Syarat2 -> SpasiAtauKosong '(' SpasiAtauKosong Boolean SpasiAtauKosong ')' SpasiAtauKosong
-Syarat3 -> Syarat1 Spasi SubSyarat3
-Syarat4 -> Syarat2 SubSyarat3
+Syarat3 -> Syarat1 Spasi SubSyarat
+Syarat4 -> Syarat2 SubSyarat
 SubSyarat -> PembandingBoolean Spasi Syarat3 | PembandingBoolean Spasi Syarat4 | PembandingBoolean Spasi Syarat1 | PembandingBoolean Syarat2
-Syarat -> Syarat3 | Syarat4
+Syarat -> Syarat1 | Syarat2 | Syarat3 | Syarat4 
 
 Boolean1 -> VarAtauKonstanta SpasiAtauKosong PembandingBoolean SpasiAtauKosong VarAtauKonstanta 
 Boolean2 -> VarAtauKonstanta
@@ -60,22 +59,9 @@ IsiLoop -> Break | Continue | S
 newLine -> ';'
 newLineAtauKosong -> newLine | EEE
 
+HeaderDef ->  Def newLine S | Def newLine Return | Def newLine S newLine Return
 
-HeaderIf -> If newLine IsiIf | If newLine IsiIf newLine HeaderElif | If newLine IsiIf newLine ELse newLine IsiIf 
-HeaderElif -> Elif newLine IsiIf | Elif newLine IsiIf newLine HeaderElif | Elif newLine IsiIf newLine ELse newLine IsiIf
-
-If -> 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
-
-Elif -> 'e' 'l' 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
-
-ELse -> 'e' 'l' 's' 'e' SpasiAtauKosong ':'
-
-IsiIf -> S | HeaderIf | HeaderLoop
-
-
-HeaderDef ->  Def newLine S | Def newLine Return | Def newLine S Return
-
-Def -> 'd' 'e' 'f' Spasi Var '(' Parameter ')' SpasiAtauKosong ':'
+Def -> 'd' 'e' 'f' Spasi Var '(' SpasiAtauKosong Parameter SpasiAtauKosong ')' SpasiAtauKosong ':'
 Return -> SpasiAtauKosong 'r' 'e' 't' 'u' 'r' 'n' Spasi Return0
 
 Parameter -> EEE | Var | Var SpasiAtauKosong Parambanyak
@@ -84,3 +70,11 @@ Parambanyak -> ',' SpasiAtauKosong Var | ',' SpasiAtauKosong Var SpasiAtauKosong
 Return0 -> Return1 | Return2
 Return1 -> Operasi | Operasi SpasiAtauKosong ',' SpasiAtauKosong Return0
 Return2 -> VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKosong Return0
+
+HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S 
+HeaderElif -> Elif newLine S | Elif newLine S newLine HeaderElif | Elif newLine S newLine Else newLine S
+
+If -> 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
+Elif -> 'e' 'l' 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
+Else -> 'e' 'l' 's' 'e' SpasiAtauKosong ':'
+
