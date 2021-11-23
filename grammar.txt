@@ -1,7 +1,9 @@
 S -> Isi S | Isi | Spasi Isi | S newLine S | HeaderImport newLine S | HeaderImport
 
-Isi -> ListKarakterA | Konstanta | Var SpasiAtauKosong '=' SpasiAtauKosong VarAtauKonstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi
+Isi -> ListKarakterA | Konstanta | Assignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop | For | While
+
+Assignment -> Var SpasiAtauKosong '=' SpasiAtauKosong VarAtauKonstanta
 
 Operasi -> '(' SpasiAtauKosong Operan SpasiAtauKosong Operator SpasiAtauKosong Operan SpasiAtauKosong ')' | Operan SpasiAtauKosong Operator SpasiAtauKosong Operan
 Operan -> Angka | Operasi | Var
@@ -24,11 +26,17 @@ StringC -> ListKarakterC | StringC StringC
 
 Desimal -> Angka '.' Angka
 
-Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None
+Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | panggilFungsi | Array
 Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
 Var -> ListKarakterA Var | ListKarakterA Subvar | ListKarakterA
 
 VarAtauKonstanta -> Var | Konstanta
+
+panggilFungsi -> Var '(' SpasiAtauKosong ParameterPanggilFungsi SpasiAtauKosong ')' SpasiAtauKosong
+ParameterPanggilFungsi -> Parameter | Konstanta | Assignment | ParameterPanggilFungsi SpasiAtauKosong ',' SpasiAtauKosong ParameterPanggilFungsi
+
+Array -> '[' SpasiAtauKosong isiArray SpasiAtauKosong ']' | '[' ']'
+isiArray -> VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKosong isiArray SpasiAtauKosong | SpasiAtauKosong  VarAtauKonstanta SpasiAtauKosong
 
 Syarat1 -> SpasiAtauKosong Boolean SpasiAtauKosong 
 Syarat2 -> SpasiAtauKosong '(' SpasiAtauKosong Boolean SpasiAtauKosong ')' SpasiAtauKosong
@@ -64,7 +72,7 @@ HeaderDef ->  Def newLine S | Def newLine Return | Def newLine S newLine Return
 Def -> 'd' 'e' 'f' Spasi Var '(' SpasiAtauKosong Parameter SpasiAtauKosong ')' SpasiAtauKosong ':'
 Return -> SpasiAtauKosong 'r' 'e' 't' 'u' 'r' 'n' Spasi Return0
 
-Parameter -> EEE | VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong Parambanyak
+Parameter -> EEE | Var | Var SpasiAtauKosong Parambanyak | Assignment | Assignment SpasiAtauKosong Parambanyak
 Parambanyak -> ',' SpasiAtauKosong Var | ',' SpasiAtauKosong Var SpasiAtauKosong Parambanyak
 
 Return0 -> Return1 | Return2

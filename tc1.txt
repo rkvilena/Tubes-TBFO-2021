@@ -1,2 +1,1 @@
-class bos():
-  
+a=tbfo(x =5, y=2)
