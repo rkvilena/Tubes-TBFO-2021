@@ -1,6 +1,6 @@
 S -> Isi S | Isi | Spasi Isi
 
-Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var '=' Konstanta | Var Operator '=' Angka | HeaderLoop
+Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop
 
 Operasi -> '(' Operan Operator Operan ')' | Operan Operator Operan
