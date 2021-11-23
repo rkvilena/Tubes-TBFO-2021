@@ -1,2 +1,2 @@
-for v in range(2):
-    v="256as"
+for a in range(2):
+    Z = "256as"
