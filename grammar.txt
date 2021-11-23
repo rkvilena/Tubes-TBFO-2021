@@ -1,6 +1,6 @@
 S -> Isi S | Isi | Spasi Isi
 
-Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop
+Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop
 
 Operasi -> '(' SpasiAtauKosong Operan SpasiAtauKosong Operator SpasiAtauKosong Operan SpasiAtauKosong ')' | Operan SpasiAtauKosong Operator SpasiAtauKosong Operan
@@ -58,3 +58,27 @@ IsiLoop -> Break | Continue | S
 
 newLine -> ';'
 newLineAtauKosong -> newLine | EEE
+
+HeaderIf -> If newLine IsiIf | If newLine IsiIf newLine HeaderElif | If newLine IsiIf newLine ELse newLine IsiIf 
+HeaderElif -> Elif newLine IsiIf | Elif newLine IsiIf newLine HeaderElif | Elif newLine IsiIf newLine ELse newLine IsiIf
+
+If -> 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
+
+Elif -> 'e' 'l' 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
+
+ELse -> 'e' 'l' 's' 'e' SpasiAtauKosong ':'
+
+IsiIf -> S | HeaderIf | HeaderLoop
+
+
+HeaderDef ->  Def newLine S | Def newLine Return | Def newLine S newLine Return
+
+Def -> 'd' 'e' 'f' Spasi Var '(' Parameter ')' SpasiAtauKosong ':'
+Return -> SpasiAtauKosong 'r' 'e' 't' 'u' 'r' 'n' Spasi Return0
+
+Parameter -> EEE | Var | Var SpasiAtauKosong Parambanyak
+Parambanyak -> ',' SpasiAtauKosong Var | ',' SpasiAtauKosong Var SpasiAtauKosong Parambanyak
+
+Return0 -> Return1 | Return2
+Return1 -> Operasi | Operasi SpasiAtauKosong ',' SpasiAtauKosong Return0
+Return2 -> VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKosong Return0
