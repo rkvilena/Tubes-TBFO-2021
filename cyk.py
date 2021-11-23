@@ -13,7 +13,7 @@ def create_cell(first, second):
         return set()
     for f in first:
         for s in second:
-            res.add(f+s)
+            res.add(f+' '+s)
     return res
     
 def bacaGrammar(namaFile="./grammar.txt"):
@@ -30,7 +30,7 @@ def bacaGrammar(namaFile="./grammar.txt"):
                 if ri[0]=="'" and ri[-1]=="'":
                     t_rules.append([left, ri[1:-1]])
                 else:
-                    v_rules.append([left, ri])
+                    v_rules.append([left, ri.split(' ')])
         return v_rules, t_rules
 
 
@@ -59,15 +59,18 @@ def cyk(varies, terms, inp):
         for j in range(length - i):
             for k in range(i):
                 row = create_cell(table[k][j], table[i-k-1][j+k+1])
+                #print(row)
                 for ro in row:
-                    if ro in var1:
-                        table[i][j].add(var0[var1.index(ro)])
+                    #print(ro)
+                    #print(var1)
+                    for l in range(len(var1)):
+                      if ro.split(' ') == var1[l]:
+                        #print('ketemu!',var0[l])
+                        table[i][j].add(var0[l])
     return table
 
 
 def tunjukkanHasil(tab, inp):
-    print('masuk')
-    print(type(tab))
     for c in inp:
         print("\t{}".format(c), end="\t")
     print()
