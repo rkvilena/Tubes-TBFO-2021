@@ -1,4 +1,4 @@
-S -> Isi S | Isi 
+S -> Isi S | Isi | Spasi Isi
 
 Isi -> 'v' '=' Konstanta | 'v' '=' Operasi | HeaderLoop
 HeaderLoop -> For newLine IsiLoop | While HeaderLoop IsiLoop

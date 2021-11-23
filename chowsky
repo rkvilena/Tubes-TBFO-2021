@@ -1,4 +1,4 @@
-S -> Isi S | a0 a2 | a0 a3 | For a4 | While a5
+S -> Isi S | a0 a2 | a0 a3 | For a4 | While a5 | Spasi Isi
 a0 -> 'v'
 a1 -> '='
 a2 -> a1 Konstanta
@@ -207,5 +207,5 @@ a166 -> a163 a165
 a167 -> a117 a166
 a168 -> a120 a167
 Continue -> a162 a168
-IsiLoop -> a157 a161 | a162 a168 | Isi S | a0 a2 | a0 a3 | For a4 | While a5
+IsiLoop -> a157 a161 | a162 a168 | Isi S | a0 a2 | a0 a3 | For a4 | While a5 | Spasi Isi
 newLine -> ';'
