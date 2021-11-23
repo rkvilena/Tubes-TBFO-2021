@@ -1,6 +1,6 @@
 S -> Isi S | Isi
 
-Isi -> 'v' '=' Angka | 'v' '=' Operasi
+Isi -> 'v' '=' Konstanta | 'v' '=' Operasi
 Isi -> HeaderLoop
 HeaderLoop -> For HeaderLoop IsiLoop | While HeaderLoop IsiLoop
 
@@ -23,7 +23,7 @@ ListKarakterC -> Alfabet | Spesial | Angka | '"'
 
 Desimal -> Angka '.' Angka
 
-Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' ListKarakterB '"' | 
+Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' ListKarakterB '"' 
 Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
 Var -> ListKarakterA Var | ListKarakterA Subvar
 
@@ -53,3 +53,5 @@ Break -> 'b' 'r' 'e' 'a' 'k' SpasiAtauKosong
 Continue -> 'c' 'o' 'n' 't' 'i' 'n' 'u' 'e' SpasiAtauKosong
 
 IsiLoop -> IsiLoop IsiLoop | Break | Continue
+
+SpasiAtauKosong -> ' ' | ''

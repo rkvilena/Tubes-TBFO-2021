@@ -1,21 +1,43 @@
 S -> Isi S | a0 a2 | a0 a3
 a0 -> 'v'
 a1 -> '='
-a2 -> a1 Angka
+a2 -> a1 Konstanta
 a3 -> a1 Operasi
 Isi -> a0 a2 | a0 a3
-Isi -> Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
-a4 -> '('
-a5 -> ')'
-a6 -> Operan a5
-a7 -> Operator a6
-a8 -> Operan a7
-a9 -> Operator Operan
-Operasi -> a4 a8 | Operan a9
+a4 -> '.'
+a5 -> a4 Angka
+a6 -> 'T'
+a7 -> 'r'
+a8 -> 'u'
+a9 -> 'e'
+a10 -> a8 a9
+a11 -> a7 a10
+a12 -> 'F'
+a13 -> 'a'
+a14 -> 'l'
+a15 -> 's'
+a16 -> a15 a9
+a17 -> a14 a16
+a18 -> a13 a17
+a19 -> '"'
+a20 -> ListKarakterB a19
+Isi -> Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a5 | a6 a11 | a12 a18 | a19 a20
+a21 -> '('
+a22 -> ')'
+a23 -> Operan a22
+a24 -> Operator a23
+a25 -> Operan a24
+a26 -> Operator Operan
+Operasi -> a21 a25 | Operan a26
 Operan -> Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
-Operan -> a4 a8 | Operan a9
+Operan -> a21 a25 | Operan a26
 Digit -> '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
-a10 -> '/'
-a11 -> '*'
-Operator -> '-' | '+' | '*' | '/' | a10 a10 | a11 a11 | '%'
+Alfabet -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z'
+Spesial -> '!' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '_' | '[' | ']' | '<' | '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | '
+a27 -> '/'
+a28 -> '*'
+Operator -> '-' | '+' | '*' | '/' | a27 a27 | a28 a28 | '%'
 Angka -> Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+ListKarakterB -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '!' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '_' | '[' | ']' | '<' | '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | ' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '''
+Desimal -> Angka a5
+Konstanta -> Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a5 | a6 a11 | a12 a18 | a19 a20
