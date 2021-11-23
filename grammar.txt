@@ -1,4 +1,4 @@
-S -> Isi S | Isi | Spasi Isi
+S -> Isi S | Isi | Spasi Isi | S newLine S
 
 Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop
@@ -59,9 +59,9 @@ IsiLoop -> Break | Continue | S
 newLine -> ';'
 newLineAtauKosong -> newLine | EEE
 
-HeaderDef ->  Def newLine S | Def newLine Return | Def newLine S Return
+HeaderDef ->  Def newLine S | Def newLine Return | Def newLine S newLine Return
 
-Def -> 'd' 'e' 'f' Spasi Var '(' Parameter ')' SpasiAtauKosong ':'
+Def -> 'd' 'e' 'f' Spasi Var '(' SpasiAtauKosong Parameter SpasiAtauKosong ')' SpasiAtauKosong ':'
 Return -> SpasiAtauKosong 'r' 'e' 't' 'u' 'r' 'n' Spasi Return0
 
 Parameter -> EEE | Var | Var SpasiAtauKosong Parambanyak
