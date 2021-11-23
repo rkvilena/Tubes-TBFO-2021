@@ -1,6 +1,6 @@
 S -> Isi S | Isi | Spasi Isi | S newLine S
 
-Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef
+Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop
 
 Operasi -> '(' SpasiAtauKosong Operan SpasiAtauKosong Operator SpasiAtauKosong Operan SpasiAtauKosong ')' | Operan SpasiAtauKosong Operator SpasiAtauKosong Operan
@@ -70,3 +70,10 @@ Parambanyak -> ',' SpasiAtauKosong Var | ',' SpasiAtauKosong Var SpasiAtauKosong
 Return0 -> Return1 | Return2
 Return1 -> Operasi | Operasi SpasiAtauKosong ',' SpasiAtauKosong Return0
 Return2 -> VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKosong Return0
+
+HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S 
+HeaderElif -> Elif newLine S | Elif newLine S newLine HeaderElif | Elif newLine S newLine Else newLine S
+
+If -> 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
+Elif -> 'e' 'l' 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
+Else -> 'e' 'l' 's' 'e' SpasiAtauKosong ':'
