@@ -1,2 +1,2 @@
-with open(454) as None:
-    x == None
+class bos():
+  

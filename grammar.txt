@@ -1,6 +1,6 @@
 S -> Isi S | Isi | Spasi Isi | S newLine S
 
-Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong VarAtauKonstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | Syarat
+Isi -> ListKarakterA | Konstanta | Var SpasiAtauKosong '=' SpasiAtauKosong VarAtauKonstanta | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop | For | While
 
 Operasi -> '(' SpasiAtauKosong Operan SpasiAtauKosong Operator SpasiAtauKosong Operan SpasiAtauKosong ')' | Operan SpasiAtauKosong Operator SpasiAtauKosong Operan
@@ -78,8 +78,14 @@ If -> 'i' 'f' Spasi Boolean SpasiAtauKosong ':'
 Elif -> 'e' 'l' 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
 Else -> 'e' 'l' 's' 'e' SpasiAtauKosong ':'
 
-None -> SpasiAtauKosong 'N' 'o' 'n' 'e' SpasiAtauKosong
+None -> SpasiAtauKosong 'N' 'o' 'n' 'e' SpasiAtauKosong newLineAtauKosong
 
 With -> 'w' 'i' 't' 'h' Spasi Open SpasiAtauKosong 'a' 's' Spasi Var SpasiAtauKosong ':'
 Open -> SpasiAtauKosong 'o' 'p' 'e' 'n' SpasiAtauKosong '(' SpasiAtauKosong Parameter SpasiAtauKosong ')' 
 HeaderWith -> With newLine S | With
+
+Class -> 'c' 'l' 'a' 's' 's' Spasi NamaClass SpasiAtauKosong ':' newLineAtauKosong
+NamaClass1 -> SpasiAtauKosong Var SpasiAtauKosong '(' SpasiAtauKosong Parameter SpasiAtauKosong ')' SpasiAtauKosong
+NamaClass2 -> SpasiAtauKosong Var SpasiAtauKosong
+NamaClass -> NamaClass1 | NamaClass2
+HeaderClass -> Class newLine S | Class
