@@ -1,6 +1,6 @@
 S -> Isi S | Isi | Spasi Isi
 
-Isi -> 'v' '=' Konstanta | 'v' '=' Operasi | HeaderLoop
+Isi -> 'v' '=' Konstanta | 'v' '=' Operasi | HeaderLoop | 'v' Operator '=' Angka
 HeaderLoop -> For newLine IsiLoop | While HeaderLoop IsiLoop
 
 Operasi -> '(' Operan Operator Operan ')' | Operan Operator Operan
