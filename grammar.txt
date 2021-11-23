@@ -1,6 +1,6 @@
 S -> Isi S | Isi | Spasi Isi
 
-Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var '=' Konstanta | HeaderLoop | Var Operator '=' Angka
+Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var '=' Konstanta | Var Operator '=' Angka | HeaderLoop
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop
 
 Operasi -> '(' Operan Operator Operan ')' | Operan Operator Operan
@@ -35,7 +35,7 @@ Syarat2 -> SpasiAtauKosong '(' SpasiAtauKosong Boolean SpasiAtauKosong ')' Spasi
 Syarat3 -> Syarat1 Spasi SubSyarat
 Syarat4 -> Syarat2 SubSyarat
 SubSyarat -> PembandingBoolean Spasi Syarat3 | PembandingBoolean Spasi Syarat4 | PembandingBoolean Spasi Syarat1 | PembandingBoolean Syarat2
-Syarat -> Syarat3 | Syarat4 | Boolean
+Syarat -> Syarat1 | Syarat2 | Syarat3 | Syarat4 
 
 Boolean1 -> VarAtauKonstanta SpasiAtauKosong PembandingBoolean SpasiAtauKosong VarAtauKonstanta 
 Boolean2 -> VarAtauKonstanta

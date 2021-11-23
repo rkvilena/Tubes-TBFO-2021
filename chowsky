@@ -1,15 +1,15 @@
-S -> Isi S | Var a3 | Var a4 | For a5 | While a5 | Var a7 | Var a2 | Var a8 | Spasi Isi
+S -> Isi S | Var a3 | Var a4 | Var a6 | For a7 | While a7 | Var a2 | Var a8 | Spasi Isi
 a0 -> '='
 a1 -> SpasiAtauKosong Konstanta
 a2 -> a0 a1
 a3 -> SpasiAtauKosong a2
 a4 -> a0 Konstanta
-a5 -> newLine IsiLoop
-a6 -> a0 Angka
-a7 -> Operator a6
+a5 -> a0 Angka
+a6 -> Operator a5
+a7 -> newLine IsiLoop
 a8 -> SpasiAtauKosong a4
-Isi -> Var a3 | Var a4 | For a5 | While a5 | Var a7 | Var a2 | Var a8
-HeaderLoop -> For a5 | While a5
+Isi -> Var a3 | Var a4 | Var a6 | For a7 | While a7 | Var a2 | Var a8
+HeaderLoop -> For a7 | While a7
 a9 -> '('
 a10 -> ')'
 a11 -> Operan a10
@@ -90,7 +90,7 @@ a62 -> Spasi Syarat3
 a63 -> Spasi Syarat4
 a64 -> Spasi Syarat1
 SubSyarat -> PembandingBoolean a62 | PembandingBoolean a63 | PembandingBoolean a64 | PembandingBoolean Syarat2
-Syarat -> Syarat1 a61 | Syarat2 SubSyarat | VarAtauKonstanta a39 | VarAtauKonstanta a40 | VarAtauKonstanta a38 | VarAtauKonstanta a41
+Syarat -> SpasiAtauKosong a36 | VarAtauKonstanta a39 | VarAtauKonstanta a40 | VarAtauKonstanta a38 | VarAtauKonstanta a41 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean | SpasiAtauKosong a46 | a9 a47 | a9 a48 | a9 a50 | a9 a44 | a9 a51 | a9 a52 | a9 a53 | a9 a45 | SpasiAtauKosong a54 | SpasiAtauKosong a55 | SpasiAtauKosong a56 | SpasiAtauKosong a57 | SpasiAtauKosong a58 | SpasiAtauKosong a59 | SpasiAtauKosong a60 | Syarat1 a61 | Syarat2 SubSyarat
 Boolean1 -> VarAtauKonstanta a39 | VarAtauKonstanta a40 | VarAtauKonstanta a38 | VarAtauKonstanta a41
 Boolean2 -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a18 | a19 a24 | a25 a31 | a32 a33 | a34 a35 | a9 a13 | Operan a14
 a65 -> Operasi a37
@@ -251,7 +251,7 @@ a211 -> a120 a210
 a212 -> a123 a211
 a213 -> a182 a212
 Continue -> SpasiAtauKosong a191 | a182 a190 | SpasiAtauKosong a199 | a182 a198 | SpasiAtauKosong a207 | a182 a206 | SpasiAtauKosong a213 | a182 a212
-BreakContinueEnding -> SpasiAtauKosong a167 | a160 a166 | SpasiAtauKosong a172 | a160 a171 | SpasiAtauKosong a177 | a160 a176 | SpasiAtauKosong a181 | a160 a180 | SpasiAtauKosong a191 | a182 a190 | SpasiAtauKosong a199 | a182 a198 | SpasiAtauKosong a207 | a182 a206 | SpasiAtauKosong a213 | a182 a212 | Isi S | Var a3 | Var a4 | For a5 | While a5 | Var a7 | Var a2 | Var a8 | Spasi Isi
-IsiLoop -> SpasiAtauKosong a167 | a160 a166 | SpasiAtauKosong a172 | a160 a171 | SpasiAtauKosong a177 | a160 a176 | SpasiAtauKosong a181 | a160 a180 | SpasiAtauKosong a191 | a182 a190 | SpasiAtauKosong a199 | a182 a198 | SpasiAtauKosong a207 | a182 a206 | SpasiAtauKosong a213 | a182 a212 | Isi S | Var a3 | Var a4 | For a5 | While a5 | Var a7 | Var a2 | Var a8 | Spasi Isi
+BreakContinueEnding -> SpasiAtauKosong a167 | a160 a166 | SpasiAtauKosong a172 | a160 a171 | SpasiAtauKosong a177 | a160 a176 | SpasiAtauKosong a181 | a160 a180 | SpasiAtauKosong a191 | a182 a190 | SpasiAtauKosong a199 | a182 a198 | SpasiAtauKosong a207 | a182 a206 | SpasiAtauKosong a213 | a182 a212 | Isi S | Var a3 | Var a4 | Var a6 | For a7 | While a7 | Var a2 | Var a8 | Spasi Isi
+IsiLoop -> SpasiAtauKosong a167 | a160 a166 | SpasiAtauKosong a172 | a160 a171 | SpasiAtauKosong a177 | a160 a176 | SpasiAtauKosong a181 | a160 a180 | SpasiAtauKosong a191 | a182 a190 | SpasiAtauKosong a199 | a182 a198 | SpasiAtauKosong a207 | a182 a206 | SpasiAtauKosong a213 | a182 a212 | Isi S | Var a3 | Var a4 | Var a6 | For a7 | While a7 | Var a2 | Var a8 | Spasi Isi
 newLine -> ';'
 newLineAtauKosong -> ';'
