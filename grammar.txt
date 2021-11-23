@@ -1,6 +1,6 @@
 S -> Isi S | Isi | Spasi Isi
 
-Isi -> 'v' '=' Konstanta | 'v' '=' Operasi | HeaderLoop
+Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var '=' Operasi | HeaderLoop
 HeaderLoop -> For newLine IsiLoop | While HeaderLoop IsiLoop
 
 Operasi -> '(' Operan Operator Operan ')' | Operan Operator Operan
@@ -27,7 +27,7 @@ Desimal -> Angka '.' Angka
 
 Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC '''
 Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
-Var -> ListKarakterA Var | ListKarakterA Subvar
+Var -> ListKarakterA Var | ListKarakterA Subvar | ListKarakterA
 
 VarAtauKonstanta -> Var | Konstanta
 
@@ -46,7 +46,7 @@ Boolean -> Boolean1 | Boolean2 | Boolean3 | Boolean4
 
 PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | 'a' 'n' 'd' | 'o' 'r' | '|' | '&' | 'i' 's' | 'i' 'n'
 
-ForA -> 'f' 'o' 'r' Spasi 'v'  Spasi 'i' 'n' 
+ForA -> 'f' 'o' 'r' Spasi Var Spasi 'i' 'n'
 For -> ForA VarAtauKonstanta SpasiAtauKosong ':' | ForA Spasi 'r' 'a' 'n' 'g' 'e' '('  VarAtauKonstanta  ')'  ':'
 
 While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':'
