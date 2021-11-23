@@ -1,7 +1,7 @@
 S -> Isi S | Isi | Spasi Isi
 
 Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var '=' Operasi | HeaderLoop
-HeaderLoop -> For newLine IsiLoop | While HeaderLoop IsiLoop
+HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop
 
 Operasi -> '(' Operan Operator Operan ')' | Operan Operator Operan
 Operan -> Angka
@@ -51,9 +51,11 @@ For -> ForA VarAtauKonstanta SpasiAtauKosong ':' | ForA Spasi 'r' 'a' 'n' 'g' 'e
 
 While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':'
 
-Break -> 'b' 'r' 'e' 'a' 'k'
-Continue -> 'c' 'o' 'n' 't' 'i' 'n' 'u' 'e'
+Break -> SpasiAtauKosong 'b' 'r' 'e' 'a' 'k' newLineAtauKosong BreakContinueEnding
+Continue -> SpasiAtauKosong 'c' 'o' 'n' 't' 'i' 'n' 'u' 'e' newLineAtauKosong BreakContinueEnding 
+BreakContinueEnding -> IsiLoop | SpasiAtauKosong
 
 IsiLoop -> Break | Continue | S
 
 newLine -> ';'
+newLineAtauKosong -> newLine | EEE
