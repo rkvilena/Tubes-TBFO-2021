@@ -1,6 +1,7 @@
 S -> Isi S | Isi
 
-Isi -> IsiLoop
+Isi -> HeaderLoop
+HeaderLoop -> For HeaderLoop IsiLoop | While HeaderLoop IsiLoop
 
 Digit -> '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 Alfabet -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z'
@@ -40,11 +41,11 @@ Boolean -> Boolean1 | Boolean2 | Boolean3 | Boolean4
 PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | 'a' 'n' 'd' | 'o' 'r' | '|' | '&' | 'i' 's' | 'i' 'n'
 
 ForA -> 'f' 'o' 'r' Spasi Var Spasi 'i' 'n' Spasi
-ForB -> ForA VarAtauKonstanta SpasiAtauKosong ':' | ForA 'r' 'a' 'n' 'g' 'e' '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
+For -> ForA VarAtauKonstanta SpasiAtauKosong ':' | ForA 'r' 'a' 'n' 'g' 'e' '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
 
 While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':'
 
 Break -> 'b' 'r' 'e' 'a' 'k' SpasiAtauKosong
 Continue -> 'c' 'o' 'n' 't' 'i' 'n' 'u' 'e' SpasiAtauKosong
 
-IsiLoop -> IsiLoop IsiLoop | IsiBreak | Continue
+IsiLoop -> IsiLoop IsiLoop | Break | Continue
