@@ -20,9 +20,12 @@ ListKarakterA -> Alfabet | '_'
 ListKarakterB -> Alfabet | Spesial | Angka | '''
 ListKarakterC -> Alfabet | Spesial | Angka | '"'
 
+StringB -> ListKarakterB | StringB StringB
+StringC -> ListKarakterC | StringC StringC
+
 Desimal -> Angka '.' Angka
 
-Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' ListKarakterB '"' 
+Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC '''
 Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
 Var -> ListKarakterA Var | ListKarakterA Subvar
 
