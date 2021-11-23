@@ -1,11 +1,10 @@
 S -> Isi S | Isi | Spasi Isi
 
-Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var '=' Konstanta | HeaderLoop
+Isi -> Var SpasiAtauKosong '=' SpasiAtauKosong Konstanta | Var '=' Konstanta | HeaderLoop | Var Operator '=' Angka
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop
 
 Operasi -> '(' Operan Operator Operan ')' | Operan Operator Operan
-Operan -> Angka
-Operan -> Operasi
+Operan -> Angka | Operasi | Var
 Digit -> '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 Alfabet -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z'
 Spesial -> '!' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '_' | '[' | ']' | '<'| '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | '|'
