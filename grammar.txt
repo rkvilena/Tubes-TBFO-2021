@@ -59,6 +59,7 @@ IsiLoop -> Break | Continue | S
 newLine -> ';'
 newLineAtauKosong -> newLine | EEE
 
+<<<<<<< HEAD
 HeaderIf -> If newLine IsiIf | If newLine IsiIf newLine HeaderElif | If newLine IsiIf newLine ELse newLine IsiIf 
 HeaderElif -> Elif newLine IsiIf | Elif newLine IsiIf newLine HeaderElif | Elif newLine IsiIf newLine ELse newLine IsiIf
 
@@ -72,6 +73,9 @@ IsiIf -> S | HeaderIf | HeaderLoop
 
 
 HeaderDef ->  Def newLine S | Def newLine Return | Def newLine S newLine Return
+=======
+HeaderDef ->  Def newLine S | Def newLine Return | Def newLine S Return
+>>>>>>> e62c94e7e64fa3cbc250de9bc0c7d39f1763cde4
 
 Def -> 'd' 'e' 'f' Spasi Var '(' Parameter ')' SpasiAtauKosong ':'
 Return -> SpasiAtauKosong 'r' 'e' 't' 'u' 'r' 'n' Spasi Return0
