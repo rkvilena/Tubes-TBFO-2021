@@ -33,10 +33,10 @@ VarAtauKonstanta -> Var | Konstanta
 
 Syarat1 -> SpasiAtauKosong Boolean SpasiAtauKosong 
 Syarat2 -> SpasiAtauKosong '(' SpasiAtauKosong Boolean SpasiAtauKosong ')' SpasiAtauKosong
-Syarat3 -> Syarat1 Spasi SubSyarat3
-Syarat4 -> Syarat2 SubSyarat3
+Syarat3 -> Syarat1 Spasi SubSyarat
+Syarat4 -> Syarat2 SubSyarat
 SubSyarat -> PembandingBoolean Spasi Syarat3 | PembandingBoolean Spasi Syarat4 | PembandingBoolean Spasi Syarat1 | PembandingBoolean Syarat2
-Syarat -> Syarat3 | Syarat4
+Syarat -> Syarat3 | Syarat4 | Boolean
 
 Boolean1 -> VarAtauKonstanta SpasiAtauKosong PembandingBoolean SpasiAtauKosong VarAtauKonstanta 
 Boolean2 -> VarAtauKonstanta

@@ -82,14 +82,14 @@ a56 -> a7 a49
 a57 -> a7 a50
 a58 -> a7 a51
 Syarat2 -> SpasiAtauKosong a44 | a7 a45 | a7 a46 | a7 a48 | a7 a42 | a7 a49 | a7 a50 | a7 a51 | a7 a43 | SpasiAtauKosong a52 | SpasiAtauKosong a53 | SpasiAtauKosong a54 | SpasiAtauKosong a55 | SpasiAtauKosong a56 | SpasiAtauKosong a57 | SpasiAtauKosong a58
-a59 -> Spasi SubSyarat3
+a59 -> Spasi SubSyarat
 Syarat3 -> Syarat1 a59
-Syarat4 -> Syarat2 SubSyarat3
+Syarat4 -> Syarat2 SubSyarat
 a60 -> Spasi Syarat3
 a61 -> Spasi Syarat4
 a62 -> Spasi Syarat1
 SubSyarat -> PembandingBoolean a60 | PembandingBoolean a61 | PembandingBoolean a62 | PembandingBoolean Syarat2
-Syarat -> Syarat1 a59 | Syarat2 SubSyarat3
+Syarat -> Syarat1 a59 | Syarat2 SubSyarat | VarAtauKonstanta a37 | VarAtauKonstanta a38 | VarAtauKonstanta a36 | VarAtauKonstanta a39
 Boolean1 -> VarAtauKonstanta a37 | VarAtauKonstanta a38 | VarAtauKonstanta a36 | VarAtauKonstanta a39
 Boolean2 -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a16 | a17 a22 | a23 a29 | a30 a31 | a32 a33 | a7 a11 | Operan a12
 a63 -> Operasi a35
