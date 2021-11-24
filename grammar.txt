@@ -41,11 +41,10 @@ isiArray -> VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKosong isiArray SpasiA
 
 Tuple -> '(' SpasiAtauKosong isiArray SpasiAtauKosong ')' | '(' ')'
 
-operasiBoolean -> SpasiAtauKosong operanBoolean SpasiAtauKosong PembandingBoolean1 SpasiAtauKosong operanBoolean SpasiAtauKosong | SpasiAtauKosong operanBoolean Spasi PembandingBoolean2 Spasi operanBoolean SpasiAtauKosong | '(' SpasiAtauKosong operanBoolean SpasiAtauKosong PembandingBoolean SpasiAtauKosong operanBoolean SpasiAtauKosong ')'
+operasiBoolean -> SpasiAtauKosong operanBoolean SpasiAtauKosong PembandingBoolean SpasiAtauKosong operanBoolean SpasiAtauKosong | '(' SpasiAtauKosong operanBoolean SpasiAtauKosong PembandingBoolean SpasiAtauKosong operanBoolean SpasiAtauKosong ')'
 operanBoolean -> VarAtauKonstanta | operasiBoolean
 
-PembandingBoolean1 -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | '|' | '&' 
-PembandingBoolean2 ->  'a' 'n' 'd' | 'o' 'r' | 'i' 's' | 'i' 'n'
+PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | Spasi 'a' 'n' 'd' Spasi | Spasi 'o' 'r' Spasi | '|' | '&' | Spasi 'i' 's' Spasi | Spasi 'i' 'n' Spasi
 
 ForA -> 'f' 'o' 'r' Spasi Var Spasi 'i' 'n'
 For -> ForA SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ':' | ForA Spasi 'r' 'a' 'n' 'g' 'e' '('  VarAtauKonstanta  ')'  ':'
