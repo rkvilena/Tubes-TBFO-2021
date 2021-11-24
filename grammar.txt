@@ -27,7 +27,7 @@ StringC -> ListKarakterC | StringC StringC
 
 Desimal -> Angka '.' Angka
 
-Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | PanggilFungsi | Array | Tuple | operasiBoolean | oneLineIf
+Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | PanggilFungsi | Array | Tuple | operasiBoolean | oneLineIf | ClassMethod
 Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
 Var -> ListKarakterA Var | ListKarakterA Subvar | ListKarakterA
 
