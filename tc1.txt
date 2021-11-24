@@ -1,4 +1,4 @@
-def tbfo(x):
-    print(saf)
-
-        
+class uf:
+    @mosfns
+    def jo():
+        print(z)

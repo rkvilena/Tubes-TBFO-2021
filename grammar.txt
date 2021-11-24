@@ -96,7 +96,9 @@ Class -> 'c' 'l' 'a' 's' 's' Spasi NamaClass SpasiAtauKosong ':' newLineAtauKoso
 NamaClass1 -> SpasiAtauKosong Var SpasiAtauKosong '(' SpasiAtauKosong Parameter SpasiAtauKosong ')' SpasiAtauKosong
 NamaClass2 -> SpasiAtauKosong Var SpasiAtauKosong
 NamaClass -> NamaClass1 | NamaClass2
-HeaderClass -> Class newLine S | Class
+HeaderClass -> Class newLine IsiClass | Class
+IsiClass -> S | ClassDecorator
+ClassDecorator -> '@' SpasiAtauKosong VarAtauKonstanta newLine HeaderDef
 
 HeaderImport -> Import Spasi NamaModule | Import Spasi NamaModule Spasi 'a' 's' Spasi Var | From Spasi NamaModule Spasi Import Spasi Var
 Import -> 'i' 'm' 'p' 'o' 'r' 't'
