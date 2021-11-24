@@ -84,7 +84,7 @@ HeaderElif -> Elif newLine S | Elif newLine S newLine HeaderElif | Elif newLine 
 
 If -> 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
 Elif -> 'e' 'l' 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
-Else -> 'e' 'l' 's' 'e' SpasiAtauKosong ':'
+Else -> SpasiAtauKosong 'e' 'l' 's' 'e' SpasiAtauKosong ':'
 
 None -> SpasiAtauKosong 'N' 'o' 'n' 'e' SpasiAtauKosong newLineAtauKosong
 
