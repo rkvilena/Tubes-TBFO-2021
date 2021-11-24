@@ -1,1 +1,1 @@
-print["suka TBFO"]
+y = tbfo('aku'. 'suka')
