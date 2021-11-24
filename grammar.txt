@@ -1,8 +1,9 @@
 S -> Isi | S newLine S | newLine | newLine S
 
-Isi -> ListKarakterA | Konstanta | Assignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi | HeaderImport | Pass | Raise
+Isi -> ListKarakterA | Konstanta | Assignment | MultipleAssignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi | HeaderImport | Pass | Raise
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop | For | While
 
+MultipleAssignment -> Var SpasiAtauKosong '=' SpasiAtauKosong MultipleAssignment | Assignment
 Assignment -> Var SpasiAtauKosong '=' SpasiAtauKosong VarAtauKonstanta
 
 Operasi -> '(' SpasiAtauKosong Operan SpasiAtauKosong Operator SpasiAtauKosong Operan SpasiAtauKosong ')' | Operan SpasiAtauKosong Operator SpasiAtauKosong Operan
