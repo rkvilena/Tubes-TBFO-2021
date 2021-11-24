@@ -1,2 +1,3 @@
-assign = None
-za = assign
+asn = None
+za = asn
+a=b=c
