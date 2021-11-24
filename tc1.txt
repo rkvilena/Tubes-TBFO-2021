@@ -1,11 +1,2 @@
-<<<<<<< HEAD
-if x>1 :
-    x=2
-elif (x==2):
-    x=3
-=======
-class uf:
-    @mosfns
-    def jo():
-        print(z)
->>>>>>> 8a5eb32050d24a2b8f05d8a0f78d88df54e463ed
+while(x<1):
+    x+=1
