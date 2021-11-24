@@ -65,6 +65,6 @@ def cyk(varies, terms, inp):
 
 def tunjukkanHasil(tab, inp):
     if 'S' in tab[len(inp)-1][0]:
-        print("Cocok dengan grammar !")
+        print("Accepted")
     else:
-        print("Tidak cocok dengan grammar !")
+        print("Syntax Error")
