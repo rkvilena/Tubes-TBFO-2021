@@ -82,8 +82,8 @@ Return2 -> VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKoso
 HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S | If
 HeaderElif -> Elif newLine S | Elif newLine S newLine HeaderElif | Elif newLine S newLine Else newLine S
 
-If -> 'i' 'f' Spasi Syarat SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')'
-Elif -> 'e' 'l' 'i' 'f' Spasi Syarat SpasiAtauKosong ':'  | 'e' 'l' 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')'
+If -> 'i' 'f' Spasi Syarat SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')' SpasiAtauKosong ':'
+Elif -> 'e' 'l' 'i' 'f' Spasi Syarat SpasiAtauKosong ':'  | 'e' 'l' 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')' SpasiAtauKosong ':'
 Else -> SpasiAtauKosong 'e' 'l' 's' 'e' SpasiAtauKosong ':'
 
 None -> SpasiAtauKosong 'N' 'o' 'n' 'e' SpasiAtauKosong newLineAtauKosong
