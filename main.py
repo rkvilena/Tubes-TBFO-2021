@@ -3,7 +3,7 @@ from utils import *
 
 v, t = bacaGrammar('chowsky')
 
-r = bacaFile('tc1.txt')
+r = bacaFile('testcase/tc6.py')
 
 print(r)
 if len(r) == 0:

@@ -26,7 +26,7 @@ StringC -> ListKarakterC | StringC StringC
 
 Desimal -> Angka '.' Angka
 
-Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | panggilFungsi | Array
+Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | panggilFungsi | Array | Syarat | Tuple
 Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
 Var -> ListKarakterA Var | ListKarakterA Subvar | ListKarakterA
 
@@ -37,6 +37,8 @@ ParameterPanggilFungsi -> Parameter | Konstanta | Assignment | ParameterPanggilF
 
 Array -> '[' SpasiAtauKosong isiArray SpasiAtauKosong ']' | '[' ']'
 isiArray -> VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKosong isiArray SpasiAtauKosong | SpasiAtauKosong  VarAtauKonstanta SpasiAtauKosong
+
+Tuple -> '(' SpasiAtauKosong isiArray SpasiAtauKosong ')' | '(' ')'
 
 Syarat1 -> SpasiAtauKosong Boolean SpasiAtauKosong 
 Syarat2 -> SpasiAtauKosong '(' SpasiAtauKosong Boolean SpasiAtauKosong ')' SpasiAtauKosong
