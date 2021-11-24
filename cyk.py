@@ -1,18 +1,11 @@
 import os
 
-def create_cell(first, second):
-    """
-    creates set of string from concatenation of each character in first
-    to each character in second
-    :param first: first set of characters
-    :param second: second set of characters
-    :return: set of desired values
-    """
+def buatSel(awal, akhir):
     res = set()
-    if first == set() or second == set():
+    if awal == set() or akhir == set():
         return set()
-    for f in first:
-        for s in second:
+    for f in awal:
+        for s in akhir:
             res.add(f+' '+s)
     return res
     
@@ -58,7 +51,7 @@ def cyk(varies, terms, inp):
     for i in range(1, length):
         for j in range(length - i):
             for k in range(i):
-                row = create_cell(table[k][j], table[i-k-1][j+k+1])
+                row = buatSel(table[k][j], table[i-k-1][j+k+1])
                 #print(row)
                 for ro in row:
                     #print(ro)
