@@ -1,6 +1,6 @@
 S -> Isi | S newLine S | newLine | newLine S
 
-Isi -> ListKarakterA | Konstanta | Assignment | MultipleAssignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi | HeaderImport | Pass | Raise
+Isi -> ListKarakterA | Konstanta | Assignment | MultipleAssignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | operasiBoolean | Operasi | HeaderImport | Pass | Raise | panggilFungsi
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop | For | While
 
 MultipleAssignment -> Var SpasiAtauKosong '=' SpasiAtauKosong MultipleAssignment | Assignment
@@ -27,7 +27,7 @@ StringC -> ListKarakterC | StringC StringC
 
 Desimal -> Angka '.' Angka
 
-Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | panggilFungsi | Array | Syarat | Tuple
+Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | panggilFungsi | Array | Tuple | operasiBoolean
 Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
 Var -> ListKarakterA Var | ListKarakterA Subvar | ListKarakterA
 
@@ -41,7 +41,6 @@ isiArray -> VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKosong isiArray SpasiA
 
 Tuple -> '(' SpasiAtauKosong isiArray SpasiAtauKosong ')' | '(' ')'
 
-Syarat -> operasiBoolean
 operasiBoolean -> SpasiAtauKosong operanBoolean SpasiAtauKosong PembandingBoolean SpasiAtauKosong operanBoolean SpasiAtauKosong | '(' SpasiAtauKosong operanBoolean SpasiAtauKosong PembandingBoolean SpasiAtauKosong operanBoolean SpasiAtauKosong ')'
 operanBoolean -> VarAtauKonstanta | operasiBoolean
 
@@ -50,7 +49,7 @@ PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | 'a' 'n'
 ForA -> 'f' 'o' 'r' Spasi Var Spasi 'i' 'n'
 For -> ForA SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ':' | ForA Spasi 'r' 'a' 'n' 'g' 'e' '('  VarAtauKonstanta  ')'  ':'
 
-While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':' | 'w' 'h' 'i' 'l' 'e' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')' SpasiAtauKosong ':' | 'w' 'h' 'i' 'l' 'e' Spasi VarAtauKonstanta SpasiAtauKosong ':' | 'w' 'h' 'i' 'l' 'e' SpasiAtauKosong '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
+While -> 'w' 'h' 'i' 'l' 'e' Spasi operasiBoolean SpasiAtauKosong ':' | 'w' 'h' 'i' 'l' 'e' SpasiAtauKosong '(' SpasiAtauKosong operasiBoolean SpasiAtauKosong ')' SpasiAtauKosong ':' | 'w' 'h' 'i' 'l' 'e' Spasi VarAtauKonstanta SpasiAtauKosong ':' | 'w' 'h' 'i' 'l' 'e' SpasiAtauKosong '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
 
 Break -> SpasiAtauKosong 'b' 'r' 'e' 'a' 'k' newLineAtauKosong BreakContinueEnding
 Continue -> SpasiAtauKosong 'c' 'o' 'n' 't' 'i' 'n' 'u' 'e' newLineAtauKosong BreakContinueEnding 
@@ -76,8 +75,8 @@ Return2 -> VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKoso
 HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S | If
 HeaderElif -> Elif newLine S | Elif newLine S newLine HeaderElif | Elif newLine S newLine Else newLine S
 
-If -> 'i' 'f' Spasi Syarat SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')' SpasiAtauKosong ':' | 'i' 'f' Spasi VarAtauKonstanta SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
-Elif -> 'e' 'l' 'i' 'f' Spasi Syarat SpasiAtauKosong ':'  | 'e' 'l' 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')' SpasiAtauKosong ':' | 'e' 'l' 'i' 'f' Spasi VarAtauKonstanta SpasiAtauKosong ':'  | 'e' 'l' 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
+If -> 'i' 'f' Spasi operasiBoolean SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong operasiBoolean SpasiAtauKosong ')' SpasiAtauKosong ':' | 'i' 'f' Spasi VarAtauKonstanta SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
+Elif -> 'e' 'l' 'i' 'f' Spasi operasiBoolean SpasiAtauKosong ':'  | 'e' 'l' 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong operasiBoolean SpasiAtauKosong ')' SpasiAtauKosong ':' | 'e' 'l' 'i' 'f' Spasi VarAtauKonstanta SpasiAtauKosong ':'  | 'e' 'l' 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
 Else -> SpasiAtauKosong 'e' 'l' 's' 'e' SpasiAtauKosong ':'
 
 None -> SpasiAtauKosong 'N' 'o' 'n' 'e' SpasiAtauKosong newLineAtauKosong
