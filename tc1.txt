@@ -1,1 +1,5 @@
-from numpy.linalg import eig as eigen
+class F:
+    def s():
+        return 0
+k=F()
+k.s()

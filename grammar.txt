@@ -1,6 +1,6 @@
 S -> Isi | S newLine S | newLine | newLine S
 
-Isi -> ListKarakterA | Konstanta | Assignment | MultipleAssignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong VarAtauKonstanta | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | operasiBoolean | Operasi | HeaderImport | Pass | Raise | panggilFungsi
+Isi -> ListKarakterA | Konstanta | Assignment | MultipleAssignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong VarAtauKonstanta | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | operasiBoolean | Operasi | HeaderImport | Pass | Raise | PanggilFungsi | ClassMethod
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop | For | While
 
 MultipleAssignment -> Var SpasiAtauKosong '=' SpasiAtauKosong MultipleAssignment | Assignment
@@ -27,13 +27,13 @@ StringC -> ListKarakterC | StringC StringC
 
 Desimal -> Angka '.' Angka
 
-Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | panggilFungsi | Array | Tuple | operasiBoolean | oneLineIf
+Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | PanggilFungsi | Array | Tuple | operasiBoolean | oneLineIf
 Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
 Var -> ListKarakterA Var | ListKarakterA Subvar | ListKarakterA
 
 VarAtauKonstanta -> Var | Konstanta
 
-panggilFungsi -> Var '(' SpasiAtauKosong ParameterPanggilFungsi SpasiAtauKosong ')' SpasiAtauKosong
+PanggilFungsi -> Var '(' SpasiAtauKosong ParameterPanggilFungsi SpasiAtauKosong ')' SpasiAtauKosong
 ParameterPanggilFungsi -> Parameter | Konstanta | Assignment | ParameterPanggilFungsi SpasiAtauKosong ',' SpasiAtauKosong ParameterPanggilFungsi
 
 Array -> '[' SpasiAtauKosong isiArray SpasiAtauKosong ']' | '[' ']'
@@ -93,6 +93,8 @@ NamaClass -> NamaClass1 | NamaClass2
 HeaderClass -> Class newLine IsiClass | Class
 IsiClass -> S | ClassDecorator
 ClassDecorator -> '@' SpasiAtauKosong VarAtauKonstanta newLine HeaderDef
+ClassMethod -> NamaClass '.' ClassMethodEnding
+ClassMethodEnding -> ClassMethod | PanggilFungsi
 
 HeaderImport -> Import Spasi NamaModule | Import Spasi NamaModule Spasi 'a' 's' Spasi Var | From Spasi NamaModule Spasi Import Spasi Var | From Spasi NamaModule Spasi Import Spasi Var Spasi 'a' 's' Spasi Var
 Import -> 'i' 'm' 'p' 'o' 'r' 't'
@@ -100,4 +102,4 @@ From -> 'f' 'r' 'o' 'm'
 NamaModule -> Var | Var '.' NamaModule
 
 Pass -> SpasiAtauKosong 'p' 'a' 's' 's' SpasiAtauKosong
-Raise -> SpasiAtauKosong 'r' 'a' 'i' 's' 'e' Spasi panggilFungsi SpasiAtauKosong | SpasiAtauKosong 'r' 'a' 'i' 's' 'e' SpasiAtauKosong 
+Raise -> SpasiAtauKosong 'r' 'a' 'i' 's' 'e' Spasi PanggilFungsi SpasiAtauKosong | SpasiAtauKosong 'r' 'a' 'i' 's' 'e' SpasiAtauKosong
