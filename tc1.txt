@@ -1,1 +1,5 @@
-a=tbfo(x =5, y=2)
+def a(x):
+    if a:
+        return 0
+    else:
+        return 1
