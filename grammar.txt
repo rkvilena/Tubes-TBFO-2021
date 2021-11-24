@@ -27,7 +27,7 @@ StringC -> ListKarakterC | StringC StringC
 
 Desimal -> Angka '.' Angka
 
-Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | panggilFungsi | Array | Tuple | operasiBoolean
+Konstanta -> Angka | Desimal | 'T' 'r' 'u' 'e' | 'F' 'a' 'l' 's' 'e' | '"' StringB '"' | ''' StringC ''' | Operasi | Open | None | panggilFungsi | Array | Tuple | operasiBoolean | oneLineIf
 Subvar -> ListKarakterA Subvar | ListKarakterA | Angka Subvar | Angka
 Var -> ListKarakterA Var | ListKarakterA Subvar | ListKarakterA
 
@@ -72,9 +72,10 @@ Return0 -> Return1 | Return2
 Return1 -> Operasi | Operasi SpasiAtauKosong ',' SpasiAtauKosong Return0
 Return2 -> VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKosong Return0
 
-HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S | If | VarAtauKonstanta Spasi 'i' 'f' operasiBoolean  'e' 'l' 's' 'e' Spasi VarAtauKonstanta 
+HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S | If | oneLineIf
 HeaderElif -> Elif newLine S | Elif newLine S newLine HeaderElif | Elif newLine S newLine Else newLine S
 
+oneLineIf ->  VarAtauKonstanta Spasi 'i' 'f' operasiBoolean  'e' 'l' 's' 'e' Spasi VarAtauKonstanta |  VarAtauKonstanta Spasi 'i' 'f' operasiBoolean
 If -> 'i' 'f' Spasi operasiBoolean SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong operasiBoolean SpasiAtauKosong ')' SpasiAtauKosong ':' | 'i' 'f' Spasi VarAtauKonstanta SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
 Elif -> 'e' 'l' 'i' 'f' Spasi operasiBoolean SpasiAtauKosong ':'  | 'e' 'l' 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong operasiBoolean SpasiAtauKosong ')' SpasiAtauKosong ':' | 'e' 'l' 'i' 'f' Spasi VarAtauKonstanta SpasiAtauKosong ':'  | 'e' 'l' 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
 Else -> SpasiAtauKosong 'e' 'l' 's' 'e' SpasiAtauKosong ':'
