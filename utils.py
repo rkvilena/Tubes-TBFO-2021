@@ -32,9 +32,8 @@ def hilangkanKomentar(x):
   return x
 
 def hilangkanIndent(x):
-    if(len(x)!=0):
-      while(x[0]=='~'):
-          x=x[1:]
+    while(len(x)!=0 and x[0]=='~'):
+        x=x[1:]
 
     if(';' in x):
         awal = x[:x.find(';')+1]

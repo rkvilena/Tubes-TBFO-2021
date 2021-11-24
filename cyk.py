@@ -71,17 +71,17 @@ def cyk(varies, terms, inp):
 
 
 def tunjukkanHasil(tab, inp):
-    for c in inp:
-        print("\t{}".format(c), end="\t")
-    print()
-    for i in range(len(inp)):
-        print(i+1, end="")
-        for c in tab[i]:
-            if c == set():
-                print("\t{}".format("_"), end="\t")
-            else:
-                print("\t{}".format(c), end=" ")
-        print()
+    # for c in inp:
+    #     print("\t{}".format(c), end="\t")
+    # print()
+    # for i in range(len(inp)):
+    #     print(i+1, end="")
+    #     for c in tab[i]:
+    #         if c == set():
+    #             print("\t{}".format("_"), end="\t")
+    #         else:
+    #             print("\t{}".format(c), end=" ")
+    #     print()
 
     if 'S' in tab[len(inp)-1][0]:
         print("Cocok dengan grammar !")
