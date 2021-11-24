@@ -1,7 +1,4 @@
 def tbfo(x):
-    if x>1:
-        return x
-    else:
-        return 0
+    print(saf)
 
         

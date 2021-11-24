@@ -1,6 +1,6 @@
 S -> Isi S | Isi | Spasi Isi | S newLine S | HeaderImport newLine S | HeaderImport | newLine | newLine S
 
-Isi -> ListKarakterA | Konstanta | Assignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi | Print
+Isi -> ListKarakterA | Konstanta | Assignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop | For | While
 
 Assignment -> Var SpasiAtauKosong '=' SpasiAtauKosong VarAtauKonstanta
@@ -105,5 +105,3 @@ NamaModule -> Var | Var '.' NamaModule
 
 Pass -> SpasiAtauKosong 'p' 'a' 's' 's' SpasiAtauKosong
 Raise -> SpasiAtauKosong 'r' 'a' 'i' 's' 'e' SpasiAtauKosong
-
-Print -> SpasiAtauKosong 'p' 'r' 'i' 'n' 't' SpasiAtauKosong '(' SpasiAtauKosong Parameter SpasiAtauKosong ')' SpasiAtauKosong
