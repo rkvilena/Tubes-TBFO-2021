@@ -3,9 +3,10 @@ from utils import *
 
 v, t = bacaGrammar('chowsky')
 
-r = bacaFile('tc1.txt')
+x=input("Masukkan nama file yang ingin dicek syntaxnya (contohnya tc1.txt) : ")
 
-print(r)
+r = bacaFile(x)
+
 if len(r) == 0:
     print("Cocok dengan grammar !")
 else:
