@@ -56,7 +56,7 @@ PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | 'a' 'n'
 ForA -> 'f' 'o' 'r' Spasi Var Spasi 'i' 'n'
 For -> ForA SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ':' | ForA Spasi 'r' 'a' 'n' 'g' 'e' '('  VarAtauKonstanta  ')'  ':'
 
-While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':'
+While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':' | 'w' 'h' 'i' 'l' 'e' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')' SpasiAtauKosong ':'
 
 Break -> SpasiAtauKosong 'b' 'r' 'e' 'a' 'k' newLineAtauKosong BreakContinueEnding
 Continue -> SpasiAtauKosong 'c' 'o' 'n' 't' 'i' 'n' 'u' 'e' newLineAtauKosong BreakContinueEnding 
@@ -82,8 +82,8 @@ Return2 -> VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKoso
 HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S | If
 HeaderElif -> Elif newLine S | Elif newLine S newLine HeaderElif | Elif newLine S newLine Else newLine S
 
-If -> 'i' 'f' Spasi Syarat SpasiAtauKosong ':' 
-Elif -> 'e' 'l' 'i' 'f' Spasi Syarat SpasiAtauKosong ':' 
+If -> 'i' 'f' Spasi Syarat SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')'
+Elif -> 'e' 'l' 'i' 'f' Spasi Syarat SpasiAtauKosong ':'  | 'e' 'l' 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong Syarat SpasiAtauKosong ')'
 Else -> SpasiAtauKosong 'e' 'l' 's' 'e' SpasiAtauKosong ':'
 
 None -> SpasiAtauKosong 'N' 'o' 'n' 'e' SpasiAtauKosong newLineAtauKosong
