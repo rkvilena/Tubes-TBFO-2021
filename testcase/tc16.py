@@ -1,2 +1,2 @@
-def tbfo(‘aku’):
+def tbfo('aku'):
     x=1
