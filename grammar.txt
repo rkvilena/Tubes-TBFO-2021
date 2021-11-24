@@ -72,7 +72,7 @@ Return0 -> Return1 | Return2
 Return1 -> Operasi | Operasi SpasiAtauKosong ',' SpasiAtauKosong Return0
 Return2 -> VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKosong Return0
 
-HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S | If
+HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S | If | VarAtauKonstanta Spasi 'i' 'f' operasiBoolean  'e' 'l' 's' 'e' Spasi VarAtauKonstanta 
 HeaderElif -> Elif newLine S | Elif newLine S newLine HeaderElif | Elif newLine S newLine Else newLine S
 
 If -> 'i' 'f' Spasi operasiBoolean SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong operasiBoolean SpasiAtauKosong ')' SpasiAtauKosong ':' | 'i' 'f' Spasi VarAtauKonstanta SpasiAtauKosong ':' | 'i' 'f' SpasiAtauKosong '(' SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ')' SpasiAtauKosong ':'
@@ -93,7 +93,7 @@ HeaderClass -> Class newLine IsiClass | Class
 IsiClass -> S | ClassDecorator
 ClassDecorator -> '@' SpasiAtauKosong VarAtauKonstanta newLine HeaderDef
 
-HeaderImport -> Import Spasi NamaModule | Import Spasi NamaModule Spasi 'a' 's' Spasi Var | From Spasi NamaModule Spasi Import Spasi Var
+HeaderImport -> Import Spasi NamaModule | Import Spasi NamaModule Spasi 'a' 's' Spasi Var | From Spasi NamaModule Spasi Import Spasi Var | From Spasi NamaModule Spasi Import Spasi Var Spasi 'a' 's' Spasi Var
 Import -> 'i' 'm' 'p' 'o' 'r' 't'
 From -> 'f' 'r' 'o' 'm'
 NamaModule -> Var | Var '.' NamaModule

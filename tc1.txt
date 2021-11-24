@@ -1,3 +1,1 @@
-def tbfo(x='aku',suka):
-    x+=suka
-    return x
+1 if x>1 else 2
