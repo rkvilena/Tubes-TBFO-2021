@@ -32,19 +32,28 @@ def hilangkanKomentar(x):
   return x
 
 def hilangkanIndent(x):
-    while(x[0]=='~'):
-        x=x[1:]
+    if(len(x)!=0):
+      while(x[0]=='~'):
+          x=x[1:]
 
     if(';' in x):
-        awal = x[:x.find(';')]
+        awal = x[:x.find(';')+1]
         akhir = x[x.find(';')+1:]
         return awal + hilangkanIndent(akhir)
     else:
         return x
+
+def hilangkanEnter(x):
+    while(len(x)!=0 and x[0]==';'):
+        x=x[1:]
+    while(len(x)!=0 and x[-1]==';'):
+        x=x[:-1]
+    return x
 
 def bacaFile(x):
     with open(x, 'r') as file:
         r = file.read().replace('\n', ';').replace(' ','~')
     r = hilangkanKomentar(r)
     r = hilangkanIndent(r)
+    r = hilangkanEnter(r)
     return r
