@@ -1,6 +1,6 @@
-S -> Isi S | Isi | Spasi Isi | S newLine S | HeaderImport newLine S | HeaderImport | newLine | newLine S
+S -> Isi | S newLine S | newLine | newLine S
 
-Isi -> ListKarakterA | Konstanta | Assignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi
+Isi -> ListKarakterA | Konstanta | Assignment | Var SpasiAtauKosong Operator '=' SpasiAtauKosong Angka | HeaderLoop | HeaderDef | HeaderIf | HeaderWith | HeaderClass | Syarat | Operasi | HeaderImport
 HeaderLoop -> For newLine IsiLoop | While newLine IsiLoop | For | While
 
 Assignment -> Var SpasiAtauKosong '=' SpasiAtauKosong VarAtauKonstanta
@@ -54,7 +54,7 @@ Boolean -> Boolean1 | Boolean2 | Boolean3 | Boolean4
 PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | 'a' 'n' 'd' | 'o' 'r' | '|' | '&' | 'i' 's' | 'i' 'n'
 
 ForA -> 'f' 'o' 'r' Spasi Var Spasi 'i' 'n'
-For -> ForA VarAtauKonstanta SpasiAtauKosong ':' | ForA Spasi 'r' 'a' 'n' 'g' 'e' '('  VarAtauKonstanta  ')'  ':'
+For -> ForA SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong ':' | ForA Spasi 'r' 'a' 'n' 'g' 'e' '('  VarAtauKonstanta  ')'  ':'
 
 While -> 'w' 'h' 'i' 'l' 'e' Spasi Syarat SpasiAtauKosong ':'
 
@@ -62,7 +62,7 @@ Break -> SpasiAtauKosong 'b' 'r' 'e' 'a' 'k' newLineAtauKosong BreakContinueEndi
 Continue -> SpasiAtauKosong 'c' 'o' 'n' 't' 'i' 'n' 'u' 'e' newLineAtauKosong BreakContinueEnding 
 BreakContinueEnding -> IsiLoop | SpasiAtauKosong
 
-IsiLoop -> Break | Continue | Spesial
+IsiLoop -> Break | Continue | Spesial | S
 
 newLine -> ';'
 newLineAtauKosong -> newLine | EEE
@@ -82,8 +82,8 @@ Return2 -> VarAtauKonstanta | VarAtauKonstanta SpasiAtauKosong ',' SpasiAtauKoso
 HeaderIf -> If newLine S | If newLine S newLine HeaderElif | If newLine S newLine Else newLine S | If
 HeaderElif -> Elif newLine S | Elif newLine S newLine HeaderElif | Elif newLine S newLine Else newLine S
 
-If -> 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
-Elif -> 'e' 'l' 'i' 'f' Spasi Boolean SpasiAtauKosong ':' 
+If -> 'i' 'f' Spasi Syarat SpasiAtauKosong ':' 
+Elif -> 'e' 'l' 'i' 'f' Spasi Syarat SpasiAtauKosong ':' 
 Else -> SpasiAtauKosong 'e' 'l' 's' 'e' SpasiAtauKosong ':'
 
 None -> SpasiAtauKosong 'N' 'o' 'n' 'e' SpasiAtauKosong newLineAtauKosong

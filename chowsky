@@ -1,4 +1,4 @@
-S -> Isi S | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | Var a182 | Var a183 | Var a181 | Var a184 | Var a188 | For a189 | While a189 | a190 a197 | a198 a207 | a198 a213 | Def a214 | Def a215 | Def a217 | If a214 | If a220 | If a224 | a191 a227 | a191 a230 | With a214 | a198 a241 | a198 a250 | a198 a255 | a198 a261 | Class a214 | a262 a270 | a262 a276 | a262 a282 | a262 a288 | SpasiAtauKosong a289 | VarAtauKonstanta a291 | VarAtauKonstanta a292 | VarAtauKonstanta a290 | VarAtauKonstanta a293 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean | Var a295 | Var a187 | Var a296 | Spasi Isi | S a214 | HeaderImport a214 | Import a297 | Import a303 | From a307
+S -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | Var a182 | Var a183 | Var a181 | Var a184 | Var a188 | For a189 | While a189 | a190 a197 | a198 a207 | a198 a213 | Def a214 | Def a215 | Def a217 | If a214 | If a220 | If a224 | a191 a225 | a191 a226 | With a214 | a198 a237 | a198 a246 | a198 a251 | a198 a257 | Class a214 | a258 a266 | a258 a272 | a258 a278 | a258 a284 | SpasiAtauKosong a285 | VarAtauKonstanta a287 | VarAtauKonstanta a288 | VarAtauKonstanta a286 | VarAtauKonstanta a289 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean | Import a290 | Import a296 | From a300 | Var a302 | Var a187 | Var a303 | S a214 | ';' | newLine S
 a0 -> '.'
 a1 -> a0 Angka
 a2 -> 'T'
@@ -224,90 +224,86 @@ a221 -> Else a214
 a222 -> newLine a221
 a223 -> S a222
 a224 -> newLine a223
-a225 -> Boolean a201
-a226 -> Spasi a225
-a227 -> a190 a226
-a228 -> Boolean a200
+a225 -> a190 a203
+a226 -> a190 a209
+a227 -> 't'
+a228 -> Var a201
 a229 -> Spasi a228
-a230 -> a190 a229
-a231 -> 't'
-a232 -> Var a201
-a233 -> Spasi a232
-a234 -> a11 a233
-a235 -> a9 a234
-a236 -> SpasiAtauKosong a235
-a237 -> Open a236
-a238 -> Spasi a237
-a239 -> a199 a238
-a240 -> a231 a239
-a241 -> a191 a240
-a242 -> Var a200
+a230 -> a11 a229
+a231 -> a9 a230
+a232 -> SpasiAtauKosong a231
+a233 -> Open a232
+a234 -> Spasi a233
+a235 -> a199 a234
+a236 -> a227 a235
+a237 -> a191 a236
+a238 -> Var a200
+a239 -> Spasi a238
+a240 -> a11 a239
+a241 -> a9 a240
+a242 -> Open a241
 a243 -> Spasi a242
-a244 -> a11 a243
-a245 -> a9 a244
-a246 -> Open a245
-a247 -> Spasi a246
-a248 -> a199 a247
-a249 -> a231 a248
-a250 -> a191 a249
-a251 -> Open a235
-a252 -> Spasi a251
-a253 -> a199 a252
-a254 -> a231 a253
-a255 -> a191 a254
-a256 -> SpasiAtauKosong a245
-a257 -> Open a256
-a258 -> Spasi a257
-a259 -> a199 a258
-a260 -> a231 a259
-a261 -> a191 a260
-a262 -> 'c'
-a263 -> a200 newLineAtauKosong
-a264 -> SpasiAtauKosong a263
-a265 -> NamaClass a264
-a266 -> Spasi a265
-a267 -> a11 a266
-a268 -> a11 a267
-a269 -> a9 a268
-a270 -> a10 a269
-a271 -> NamaClass a263
-a272 -> Spasi a271
-a273 -> a11 a272
-a274 -> a11 a273
-a275 -> a9 a274
-a276 -> a10 a275
-a277 -> NamaClass a201
-a278 -> Spasi a277
-a279 -> a11 a278
-a280 -> a11 a279
-a281 -> a9 a280
-a282 -> a10 a281
-a283 -> NamaClass a200
-a284 -> Spasi a283
-a285 -> a11 a284
-a286 -> a11 a285
-a287 -> a9 a286
-a288 -> a10 a287
-a289 -> Boolean SpasiAtauKosong
-a290 -> PembandingBoolean a180
-a291 -> SpasiAtauKosong a290
-a292 -> PembandingBoolean VarAtauKonstanta
-a293 -> SpasiAtauKosong a292
-a294 -> a179 Angka
-a295 -> Operator a294
-a296 -> SpasiAtauKosong a295
-a297 -> Spasi NamaModule
-a298 -> Spasi Var
-a299 -> a11 a298
-a300 -> a9 a299
-a301 -> Spasi a300
-a302 -> NamaModule a301
-a303 -> Spasi a302
-a304 -> Import a298
-a305 -> Spasi a304
-a306 -> NamaModule a305
-a307 -> Spasi a306
-Isi -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | Var a182 | Var a183 | Var a181 | Var a184 | Var a188 | For a189 | While a189 | a190 a197 | a198 a207 | a198 a213 | Def a214 | Def a215 | Def a217 | If a214 | If a220 | If a224 | a191 a227 | a191 a230 | With a214 | a198 a241 | a198 a250 | a198 a255 | a198 a261 | Class a214 | a262 a270 | a262 a276 | a262 a282 | a262 a288 | SpasiAtauKosong a289 | VarAtauKonstanta a291 | VarAtauKonstanta a292 | VarAtauKonstanta a290 | VarAtauKonstanta a293 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean | Var a295 | Var a187 | Var a296
+a244 -> a199 a243
+a245 -> a227 a244
+a246 -> a191 a245
+a247 -> Open a231
+a248 -> Spasi a247
+a249 -> a199 a248
+a250 -> a227 a249
+a251 -> a191 a250
+a252 -> SpasiAtauKosong a241
+a253 -> Open a252
+a254 -> Spasi a253
+a255 -> a199 a254
+a256 -> a227 a255
+a257 -> a191 a256
+a258 -> 'c'
+a259 -> a200 newLineAtauKosong
+a260 -> SpasiAtauKosong a259
+a261 -> NamaClass a260
+a262 -> Spasi a261
+a263 -> a11 a262
+a264 -> a11 a263
+a265 -> a9 a264
+a266 -> a10 a265
+a267 -> NamaClass a259
+a268 -> Spasi a267
+a269 -> a11 a268
+a270 -> a11 a269
+a271 -> a9 a270
+a272 -> a10 a271
+a273 -> NamaClass a201
+a274 -> Spasi a273
+a275 -> a11 a274
+a276 -> a11 a275
+a277 -> a9 a276
+a278 -> a10 a277
+a279 -> NamaClass a200
+a280 -> Spasi a279
+a281 -> a11 a280
+a282 -> a11 a281
+a283 -> a9 a282
+a284 -> a10 a283
+a285 -> Boolean SpasiAtauKosong
+a286 -> PembandingBoolean a180
+a287 -> SpasiAtauKosong a286
+a288 -> PembandingBoolean VarAtauKonstanta
+a289 -> SpasiAtauKosong a288
+a290 -> Spasi NamaModule
+a291 -> Spasi Var
+a292 -> a11 a291
+a293 -> a9 a292
+a294 -> Spasi a293
+a295 -> NamaModule a294
+a296 -> Spasi a295
+a297 -> Import a291
+a298 -> Spasi a297
+a299 -> NamaModule a298
+a300 -> Spasi a299
+a301 -> a179 Angka
+a302 -> Operator a301
+a303 -> SpasiAtauKosong a302
+Isi -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | Var a182 | Var a183 | Var a181 | Var a184 | Var a188 | For a189 | While a189 | a190 a197 | a198 a207 | a198 a213 | Def a214 | Def a215 | Def a217 | If a214 | If a220 | If a224 | a191 a225 | a191 a226 | With a214 | a198 a237 | a198 a246 | a198 a251 | a198 a257 | Class a214 | a258 a266 | a258 a272 | a258 a278 | a258 a284 | SpasiAtauKosong a285 | VarAtauKonstanta a287 | VarAtauKonstanta a288 | VarAtauKonstanta a286 | VarAtauKonstanta a289 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean | Import a290 | Import a296 | From a300 | Var a302 | Var a187 | Var a303
 HeaderLoop -> For a189 | While a189 | a190 a197 | a198 a207 | a198 a213
 Assignment -> Var a182 | Var a183 | Var a181 | Var a184
 Operasi -> a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54
@@ -315,9 +311,9 @@ Operan -> Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9
 Digit -> '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 Alfabet -> 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z'
 Spesial -> '!' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '_' | '[' | ']' | '<' | '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | '
-a308 -> '/'
-a309 -> '*'
-Operator -> '-' | '+' | '*' | '/' | a308 a308 | a309 a309 | '%'
+a304 -> '/'
+a305 -> '*'
+Operator -> '-' | '+' | '*' | '/' | a304 a304 | a305 a305 | '%'
 Angka -> Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 Spasi -> Spasi Spasi | '~'
 SpasiAtauKosong -> Spasi Spasi | '~'
@@ -332,376 +328,378 @@ Subvar -> ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' |
 Var -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_'
 VarAtauKonstanta -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178
 panggilFungsi -> Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103
-a310 -> ','
-a311 -> SpasiAtauKosong ParameterPanggilFungsi
-a312 -> a310 a311
-a313 -> SpasiAtauKosong a312
-a314 -> a310 ParameterPanggilFungsi
-a315 -> SpasiAtauKosong a314
-a316 -> a0 NamaModule
-ParameterPanggilFungsi -> Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | Var a182 | Var a183 | Var a181 | Var a184 | ParameterPanggilFungsi a313 | ParameterPanggilFungsi a314 | ParameterPanggilFungsi a312 | ParameterPanggilFungsi a315 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var a316
+a306 -> ','
+a307 -> SpasiAtauKosong ParameterPanggilFungsi
+a308 -> a306 a307
+a309 -> SpasiAtauKosong a308
+a310 -> a306 ParameterPanggilFungsi
+a311 -> SpasiAtauKosong a310
+a312 -> a0 NamaModule
+ParameterPanggilFungsi -> Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | Var a182 | Var a183 | Var a181 | Var a184 | ParameterPanggilFungsi a309 | ParameterPanggilFungsi a310 | ParameterPanggilFungsi a308 | ParameterPanggilFungsi a311 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var a312
 Array -> a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178
-a317 -> isiArray SpasiAtauKosong
-a318 -> SpasiAtauKosong a317
-a319 -> a310 a318
-a320 -> SpasiAtauKosong a319
-a321 -> VarAtauKonstanta SpasiAtauKosong
-a322 -> a310 isiArray
-a323 -> a310 a317
-a324 -> SpasiAtauKosong isiArray
-a325 -> a310 a324
-a326 -> SpasiAtauKosong a322
-a327 -> SpasiAtauKosong a323
-a328 -> SpasiAtauKosong a325
-isiArray -> VarAtauKonstanta a320 | SpasiAtauKosong a321 | VarAtauKonstanta a322 | VarAtauKonstanta a323 | VarAtauKonstanta a325 | VarAtauKonstanta a319 | VarAtauKonstanta a326 | VarAtauKonstanta a327 | VarAtauKonstanta a328 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | VarAtauKonstanta SpasiAtauKosong | SpasiAtauKosong VarAtauKonstanta
-Syarat1 -> SpasiAtauKosong a289 | VarAtauKonstanta a291 | VarAtauKonstanta a292 | VarAtauKonstanta a290 | VarAtauKonstanta a293 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean
-a329 -> Boolean a151
-a330 -> SpasiAtauKosong a329
-a331 -> a19 a330
-a332 -> Boolean a20
-a333 -> Boolean a150
-a334 -> Boolean a21
-a335 -> SpasiAtauKosong a332
-a336 -> SpasiAtauKosong a333
-a337 -> SpasiAtauKosong a334
-a338 -> a19 a332
-a339 -> a19 a333
-a340 -> a19 a334
-a341 -> a19 a329
-a342 -> a19 a335
-a343 -> a19 a336
-a344 -> a19 a337
-Syarat2 -> SpasiAtauKosong a331 | a19 a332 | a19 a333 | a19 a334 | a19 a329 | a19 a335 | a19 a336 | a19 a337 | a19 a330 | SpasiAtauKosong a338 | SpasiAtauKosong a339 | SpasiAtauKosong a340 | SpasiAtauKosong a341 | SpasiAtauKosong a342 | SpasiAtauKosong a343 | SpasiAtauKosong a344
-a345 -> Spasi SubSyarat
-Syarat3 -> Syarat1 a345
+a313 -> isiArray SpasiAtauKosong
+a314 -> SpasiAtauKosong a313
+a315 -> a306 a314
+a316 -> SpasiAtauKosong a315
+a317 -> VarAtauKonstanta SpasiAtauKosong
+a318 -> a306 isiArray
+a319 -> a306 a313
+a320 -> SpasiAtauKosong isiArray
+a321 -> a306 a320
+a322 -> SpasiAtauKosong a318
+a323 -> SpasiAtauKosong a319
+a324 -> SpasiAtauKosong a321
+isiArray -> VarAtauKonstanta a316 | SpasiAtauKosong a317 | VarAtauKonstanta a318 | VarAtauKonstanta a319 | VarAtauKonstanta a321 | VarAtauKonstanta a315 | VarAtauKonstanta a322 | VarAtauKonstanta a323 | VarAtauKonstanta a324 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | VarAtauKonstanta SpasiAtauKosong | SpasiAtauKosong VarAtauKonstanta
+Syarat1 -> SpasiAtauKosong a285 | VarAtauKonstanta a287 | VarAtauKonstanta a288 | VarAtauKonstanta a286 | VarAtauKonstanta a289 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean
+a325 -> Boolean a151
+a326 -> SpasiAtauKosong a325
+a327 -> a19 a326
+a328 -> Boolean a20
+a329 -> Boolean a150
+a330 -> Boolean a21
+a331 -> SpasiAtauKosong a328
+a332 -> SpasiAtauKosong a329
+a333 -> SpasiAtauKosong a330
+a334 -> a19 a328
+a335 -> a19 a329
+a336 -> a19 a330
+a337 -> a19 a325
+a338 -> a19 a331
+a339 -> a19 a332
+a340 -> a19 a333
+Syarat2 -> SpasiAtauKosong a327 | a19 a328 | a19 a329 | a19 a330 | a19 a325 | a19 a331 | a19 a332 | a19 a333 | a19 a326 | SpasiAtauKosong a334 | SpasiAtauKosong a335 | SpasiAtauKosong a336 | SpasiAtauKosong a337 | SpasiAtauKosong a338 | SpasiAtauKosong a339 | SpasiAtauKosong a340
+a341 -> Spasi SubSyarat
+Syarat3 -> Syarat1 a341
 Syarat4 -> Syarat2 SubSyarat
-a346 -> Spasi Syarat3
-a347 -> Spasi Syarat4
-a348 -> Spasi Syarat1
-SubSyarat -> PembandingBoolean a346 | PembandingBoolean a347 | PembandingBoolean a348 | PembandingBoolean Syarat2
-Syarat -> SpasiAtauKosong a289 | VarAtauKonstanta a291 | VarAtauKonstanta a292 | VarAtauKonstanta a290 | VarAtauKonstanta a293 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean | SpasiAtauKosong a331 | a19 a332 | a19 a333 | a19 a334 | a19 a329 | a19 a335 | a19 a336 | a19 a337 | a19 a330 | SpasiAtauKosong a338 | SpasiAtauKosong a339 | SpasiAtauKosong a340 | SpasiAtauKosong a341 | SpasiAtauKosong a342 | SpasiAtauKosong a343 | SpasiAtauKosong a344 | Syarat1 a345 | Syarat2 SubSyarat
-Boolean1 -> VarAtauKonstanta a291 | VarAtauKonstanta a292 | VarAtauKonstanta a290 | VarAtauKonstanta a293
+a342 -> Spasi Syarat3
+a343 -> Spasi Syarat4
+a344 -> Spasi Syarat1
+SubSyarat -> PembandingBoolean a342 | PembandingBoolean a343 | PembandingBoolean a344 | PembandingBoolean Syarat2
+Syarat -> SpasiAtauKosong a285 | VarAtauKonstanta a287 | VarAtauKonstanta a288 | VarAtauKonstanta a286 | VarAtauKonstanta a289 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean | SpasiAtauKosong a327 | a19 a328 | a19 a329 | a19 a330 | a19 a325 | a19 a331 | a19 a332 | a19 a333 | a19 a326 | SpasiAtauKosong a334 | SpasiAtauKosong a335 | SpasiAtauKosong a336 | SpasiAtauKosong a337 | SpasiAtauKosong a338 | SpasiAtauKosong a339 | SpasiAtauKosong a340 | Syarat1 a341 | Syarat2 SubSyarat
+Boolean1 -> VarAtauKonstanta a287 | VarAtauKonstanta a288 | VarAtauKonstanta a286 | VarAtauKonstanta a289
 Boolean2 -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178
-a349 -> Operasi a180
+a345 -> Operasi a180
+a346 -> SpasiAtauKosong a345
+a347 -> VarAtauKonstanta a346
+a348 -> SpasiAtauKosong a347
+a349 -> PembandingBoolean a348
 a350 -> SpasiAtauKosong a349
-a351 -> VarAtauKonstanta a350
-a352 -> SpasiAtauKosong a351
+a351 -> Operasi VarAtauKonstanta
+a352 -> VarAtauKonstanta a351
 a353 -> PembandingBoolean a352
-a354 -> SpasiAtauKosong a353
-a355 -> Operasi VarAtauKonstanta
-a356 -> VarAtauKonstanta a355
-a357 -> PembandingBoolean a356
-a358 -> VarAtauKonstanta a349
-a359 -> PembandingBoolean a358
-a360 -> SpasiAtauKosong a355
-a361 -> VarAtauKonstanta a360
-a362 -> PembandingBoolean a361
-a363 -> PembandingBoolean a351
-a364 -> SpasiAtauKosong a356
+a354 -> VarAtauKonstanta a345
+a355 -> PembandingBoolean a354
+a356 -> SpasiAtauKosong a351
+a357 -> VarAtauKonstanta a356
+a358 -> PembandingBoolean a357
+a359 -> PembandingBoolean a347
+a360 -> SpasiAtauKosong a352
+a361 -> PembandingBoolean a360
+a362 -> SpasiAtauKosong a354
+a363 -> PembandingBoolean a362
+a364 -> SpasiAtauKosong a357
 a365 -> PembandingBoolean a364
-a366 -> SpasiAtauKosong a358
-a367 -> PembandingBoolean a366
-a368 -> SpasiAtauKosong a361
-a369 -> PembandingBoolean a368
-a370 -> SpasiAtauKosong a357
-a371 -> SpasiAtauKosong a359
-a372 -> SpasiAtauKosong a362
-a373 -> SpasiAtauKosong a363
-a374 -> SpasiAtauKosong a365
-a375 -> SpasiAtauKosong a367
-a376 -> SpasiAtauKosong a369
-Boolean3 -> VarAtauKonstanta a354 | VarAtauKonstanta a357 | VarAtauKonstanta a359 | VarAtauKonstanta a362 | VarAtauKonstanta a363 | VarAtauKonstanta a365 | VarAtauKonstanta a367 | VarAtauKonstanta a369 | VarAtauKonstanta a353 | VarAtauKonstanta a370 | VarAtauKonstanta a371 | VarAtauKonstanta a372 | VarAtauKonstanta a373 | VarAtauKonstanta a374 | VarAtauKonstanta a375 | VarAtauKonstanta a376
-a377 -> VarAtauKonstanta a291
-a378 -> SpasiAtauKosong a377
-a379 -> Operasi a378
-a380 -> SpasiAtauKosong a379
-a381 -> VarAtauKonstanta a292
+a366 -> SpasiAtauKosong a353
+a367 -> SpasiAtauKosong a355
+a368 -> SpasiAtauKosong a358
+a369 -> SpasiAtauKosong a359
+a370 -> SpasiAtauKosong a361
+a371 -> SpasiAtauKosong a363
+a372 -> SpasiAtauKosong a365
+Boolean3 -> VarAtauKonstanta a350 | VarAtauKonstanta a353 | VarAtauKonstanta a355 | VarAtauKonstanta a358 | VarAtauKonstanta a359 | VarAtauKonstanta a361 | VarAtauKonstanta a363 | VarAtauKonstanta a365 | VarAtauKonstanta a349 | VarAtauKonstanta a366 | VarAtauKonstanta a367 | VarAtauKonstanta a368 | VarAtauKonstanta a369 | VarAtauKonstanta a370 | VarAtauKonstanta a371 | VarAtauKonstanta a372
+a373 -> VarAtauKonstanta a287
+a374 -> SpasiAtauKosong a373
+a375 -> Operasi a374
+a376 -> SpasiAtauKosong a375
+a377 -> VarAtauKonstanta a288
+a378 -> Operasi a377
+a379 -> VarAtauKonstanta a286
+a380 -> Operasi a379
+a381 -> VarAtauKonstanta a289
 a382 -> Operasi a381
-a383 -> VarAtauKonstanta a290
-a384 -> Operasi a383
-a385 -> VarAtauKonstanta a293
-a386 -> Operasi a385
-a387 -> Operasi a377
+a383 -> Operasi a373
+a384 -> SpasiAtauKosong a377
+a385 -> Operasi a384
+a386 -> SpasiAtauKosong a379
+a387 -> Operasi a386
 a388 -> SpasiAtauKosong a381
 a389 -> Operasi a388
-a390 -> SpasiAtauKosong a383
-a391 -> Operasi a390
-a392 -> SpasiAtauKosong a385
-a393 -> Operasi a392
-a394 -> SpasiAtauKosong a382
-a395 -> SpasiAtauKosong a384
-a396 -> SpasiAtauKosong a386
-a397 -> SpasiAtauKosong a387
-a398 -> SpasiAtauKosong a389
-a399 -> SpasiAtauKosong a391
-a400 -> SpasiAtauKosong a393
-Boolean4 -> VarAtauKonstanta a380 | VarAtauKonstanta a382 | VarAtauKonstanta a384 | VarAtauKonstanta a386 | VarAtauKonstanta a387 | VarAtauKonstanta a389 | VarAtauKonstanta a391 | VarAtauKonstanta a393 | VarAtauKonstanta a379 | VarAtauKonstanta a394 | VarAtauKonstanta a395 | VarAtauKonstanta a396 | VarAtauKonstanta a397 | VarAtauKonstanta a398 | VarAtauKonstanta a399 | VarAtauKonstanta a400
-Boolean -> VarAtauKonstanta a291 | VarAtauKonstanta a292 | VarAtauKonstanta a290 | VarAtauKonstanta a293 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | VarAtauKonstanta a354 | VarAtauKonstanta a357 | VarAtauKonstanta a359 | VarAtauKonstanta a362 | VarAtauKonstanta a363 | VarAtauKonstanta a365 | VarAtauKonstanta a367 | VarAtauKonstanta a369 | VarAtauKonstanta a353 | VarAtauKonstanta a370 | VarAtauKonstanta a371 | VarAtauKonstanta a372 | VarAtauKonstanta a373 | VarAtauKonstanta a374 | VarAtauKonstanta a375 | VarAtauKonstanta a376 | VarAtauKonstanta a380 | VarAtauKonstanta a382 | VarAtauKonstanta a384 | VarAtauKonstanta a386 | VarAtauKonstanta a387 | VarAtauKonstanta a389 | VarAtauKonstanta a391 | VarAtauKonstanta a393 | VarAtauKonstanta a379 | VarAtauKonstanta a394 | VarAtauKonstanta a395 | VarAtauKonstanta a396 | VarAtauKonstanta a397 | VarAtauKonstanta a398 | VarAtauKonstanta a399 | VarAtauKonstanta a400
-a401 -> '<'
-a402 -> '>'
-a403 -> '!'
-a404 -> 'd'
-a405 -> a57 a404
-PembandingBoolean -> '<' | '>' | a401 a179 | a402 a179 | a179 a179 | a403 a179 | a9 a405 | a55 a3 | ' | '&' | a191 a11 | a191 a57
+a390 -> SpasiAtauKosong a378
+a391 -> SpasiAtauKosong a380
+a392 -> SpasiAtauKosong a382
+a393 -> SpasiAtauKosong a383
+a394 -> SpasiAtauKosong a385
+a395 -> SpasiAtauKosong a387
+a396 -> SpasiAtauKosong a389
+Boolean4 -> VarAtauKonstanta a376 | VarAtauKonstanta a378 | VarAtauKonstanta a380 | VarAtauKonstanta a382 | VarAtauKonstanta a383 | VarAtauKonstanta a385 | VarAtauKonstanta a387 | VarAtauKonstanta a389 | VarAtauKonstanta a375 | VarAtauKonstanta a390 | VarAtauKonstanta a391 | VarAtauKonstanta a392 | VarAtauKonstanta a393 | VarAtauKonstanta a394 | VarAtauKonstanta a395 | VarAtauKonstanta a396
+Boolean -> VarAtauKonstanta a287 | VarAtauKonstanta a288 | VarAtauKonstanta a286 | VarAtauKonstanta a289 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | VarAtauKonstanta a350 | VarAtauKonstanta a353 | VarAtauKonstanta a355 | VarAtauKonstanta a358 | VarAtauKonstanta a359 | VarAtauKonstanta a361 | VarAtauKonstanta a363 | VarAtauKonstanta a365 | VarAtauKonstanta a349 | VarAtauKonstanta a366 | VarAtauKonstanta a367 | VarAtauKonstanta a368 | VarAtauKonstanta a369 | VarAtauKonstanta a370 | VarAtauKonstanta a371 | VarAtauKonstanta a372 | VarAtauKonstanta a376 | VarAtauKonstanta a378 | VarAtauKonstanta a380 | VarAtauKonstanta a382 | VarAtauKonstanta a383 | VarAtauKonstanta a385 | VarAtauKonstanta a387 | VarAtauKonstanta a389 | VarAtauKonstanta a375 | VarAtauKonstanta a390 | VarAtauKonstanta a391 | VarAtauKonstanta a392 | VarAtauKonstanta a393 | VarAtauKonstanta a394 | VarAtauKonstanta a395 | VarAtauKonstanta a396
+a397 -> '<'
+a398 -> '>'
+a399 -> '!'
+a400 -> 'd'
+a401 -> a57 a400
+PembandingBoolean -> '<' | '>' | a397 a179 | a398 a179 | a179 a179 | a399 a179 | a9 a401 | a55 a3 | ' | '&' | a191 a11 | a191 a57
 ForA -> a190 a197
-a406 -> VarAtauKonstanta a201
-a407 -> 'g'
-a408 -> a20 a200
-a409 -> VarAtauKonstanta a408
-a410 -> a19 a409
-a411 -> a5 a410
-a412 -> a407 a411
-a413 -> a57 a412
-a414 -> a9 a413
-a415 -> a3 a414
-a416 -> Spasi a415
-a417 -> VarAtauKonstanta a200
-For -> ForA a406 | ForA a416 | ForA a417
+a402 -> VarAtauKonstanta a201
+a403 -> SpasiAtauKosong a402
+a404 -> 'g'
+a405 -> a20 a200
+a406 -> VarAtauKonstanta a405
+a407 -> a19 a406
+a408 -> a5 a407
+a409 -> a404 a408
+a410 -> a57 a409
+a411 -> a9 a410
+a412 -> a3 a411
+a413 -> Spasi a412
+a414 -> VarAtauKonstanta a200
+a415 -> SpasiAtauKosong a414
+For -> ForA a403 | ForA a413 | ForA a414 | ForA a402 | ForA a415
 While -> a198 a207 | a198 a213
-a418 -> 'b'
-a419 -> 'k'
-a420 -> newLineAtauKosong BreakContinueEnding
-a421 -> a419 a420
-a422 -> a9 a421
-a423 -> a5 a422
-a424 -> a3 a423
-a425 -> a418 a424
-a426 -> a419 newLineAtauKosong
-a427 -> a9 a426
-a428 -> a5 a427
-a429 -> a3 a428
-a430 -> a418 a429
-a431 -> a419 BreakContinueEnding
-a432 -> a9 a431
-a433 -> a5 a432
-a434 -> a3 a433
-a435 -> a418 a434
-a436 -> a9 a419
-a437 -> a5 a436
-a438 -> a3 a437
-a439 -> a418 a438
-Break -> SpasiAtauKosong a425 | a418 a424 | SpasiAtauKosong a430 | a418 a429 | SpasiAtauKosong a435 | a418 a434 | SpasiAtauKosong a439 | a418 a438
-a440 -> a5 a420
-a441 -> a4 a440
-a442 -> a57 a441
-a443 -> a191 a442
-a444 -> a231 a443
-a445 -> a57 a444
-a446 -> a55 a445
-a447 -> a262 a446
-a448 -> a4 a139
-a449 -> a57 a448
-a450 -> a191 a449
-a451 -> a231 a450
-a452 -> a57 a451
-a453 -> a55 a452
-a454 -> a262 a453
-a455 -> a5 BreakContinueEnding
-a456 -> a4 a455
-a457 -> a57 a456
-a458 -> a191 a457
-a459 -> a231 a458
-a460 -> a57 a459
-a461 -> a55 a460
-a462 -> a262 a461
-a463 -> a57 a6
-a464 -> a191 a463
-a465 -> a231 a464
-a466 -> a57 a465
-a467 -> a55 a466
-a468 -> a262 a467
-Continue -> SpasiAtauKosong a447 | a262 a446 | SpasiAtauKosong a454 | a262 a453 | SpasiAtauKosong a462 | a262 a461 | SpasiAtauKosong a468 | a262 a467
-BreakContinueEnding -> SpasiAtauKosong a425 | a418 a424 | SpasiAtauKosong a430 | a418 a429 | SpasiAtauKosong a435 | a418 a434 | SpasiAtauKosong a439 | a418 a438 | SpasiAtauKosong a447 | a262 a446 | SpasiAtauKosong a454 | a262 a453 | SpasiAtauKosong a462 | a262 a461 | SpasiAtauKosong a468 | a262 a467 | '!' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '_' | '[' | ']' | '<' | '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | '
-IsiLoop -> SpasiAtauKosong a425 | a418 a424 | SpasiAtauKosong a430 | a418 a429 | SpasiAtauKosong a435 | a418 a434 | SpasiAtauKosong a439 | a418 a438 | SpasiAtauKosong a447 | a262 a446 | SpasiAtauKosong a454 | a262 a453 | SpasiAtauKosong a462 | a262 a461 | SpasiAtauKosong a468 | a262 a467 | '!' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '_' | '[' | ']' | '<' | '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | '
+a416 -> 'b'
+a417 -> 'k'
+a418 -> newLineAtauKosong BreakContinueEnding
+a419 -> a417 a418
+a420 -> a9 a419
+a421 -> a5 a420
+a422 -> a3 a421
+a423 -> a416 a422
+a424 -> a417 newLineAtauKosong
+a425 -> a9 a424
+a426 -> a5 a425
+a427 -> a3 a426
+a428 -> a416 a427
+a429 -> a417 BreakContinueEnding
+a430 -> a9 a429
+a431 -> a5 a430
+a432 -> a3 a431
+a433 -> a416 a432
+a434 -> a9 a417
+a435 -> a5 a434
+a436 -> a3 a435
+a437 -> a416 a436
+Break -> SpasiAtauKosong a423 | a416 a422 | SpasiAtauKosong a428 | a416 a427 | SpasiAtauKosong a433 | a416 a432 | SpasiAtauKosong a437 | a416 a436
+a438 -> a5 a418
+a439 -> a4 a438
+a440 -> a57 a439
+a441 -> a191 a440
+a442 -> a227 a441
+a443 -> a57 a442
+a444 -> a55 a443
+a445 -> a258 a444
+a446 -> a4 a139
+a447 -> a57 a446
+a448 -> a191 a447
+a449 -> a227 a448
+a450 -> a57 a449
+a451 -> a55 a450
+a452 -> a258 a451
+a453 -> a5 BreakContinueEnding
+a454 -> a4 a453
+a455 -> a57 a454
+a456 -> a191 a455
+a457 -> a227 a456
+a458 -> a57 a457
+a459 -> a55 a458
+a460 -> a258 a459
+a461 -> a57 a6
+a462 -> a191 a461
+a463 -> a227 a462
+a464 -> a57 a463
+a465 -> a55 a464
+a466 -> a258 a465
+Continue -> SpasiAtauKosong a445 | a258 a444 | SpasiAtauKosong a452 | a258 a451 | SpasiAtauKosong a460 | a258 a459 | SpasiAtauKosong a466 | a258 a465
+BreakContinueEnding -> SpasiAtauKosong a423 | a416 a422 | SpasiAtauKosong a428 | a416 a427 | SpasiAtauKosong a433 | a416 a432 | SpasiAtauKosong a437 | a416 a436 | SpasiAtauKosong a445 | a258 a444 | SpasiAtauKosong a452 | a258 a451 | SpasiAtauKosong a460 | a258 a459 | SpasiAtauKosong a466 | a258 a465 | '!' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '_' | '[' | ']' | '<' | '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | ' | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | Var a182 | Var a183 | Var a181 | Var a184 | Var a188 | For a189 | While a189 | a190 a197 | a198 a207 | a198 a213 | Def a214 | Def a215 | Def a217 | If a214 | If a220 | If a224 | a191 a225 | a191 a226 | With a214 | a198 a237 | a198 a246 | a198 a251 | a198 a257 | Class a214 | a258 a266 | a258 a272 | a258 a278 | a258 a284 | SpasiAtauKosong a285 | VarAtauKonstanta a287 | VarAtauKonstanta a288 | VarAtauKonstanta a286 | VarAtauKonstanta a289 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean | Import a290 | Import a296 | From a300 | Var a302 | Var a187 | Var a303 | S a214 | newLine S
+IsiLoop -> SpasiAtauKosong a423 | a416 a422 | SpasiAtauKosong a428 | a416 a427 | SpasiAtauKosong a433 | a416 a432 | SpasiAtauKosong a437 | a416 a436 | SpasiAtauKosong a445 | a258 a444 | SpasiAtauKosong a452 | a258 a451 | SpasiAtauKosong a460 | a258 a459 | SpasiAtauKosong a466 | a258 a465 | '!' | '#' | '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '=' | '/' | '_' | '[' | ']' | '<' | '>' | '?' | ';' | '.' | ',' | '~' | '`' | '{' | '}' | ' | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | Var a182 | Var a183 | Var a181 | Var a184 | Var a188 | For a189 | While a189 | a190 a197 | a198 a207 | a198 a213 | Def a214 | Def a215 | Def a217 | If a214 | If a220 | If a224 | a191 a225 | a191 a226 | With a214 | a198 a237 | a198 a246 | a198 a251 | a198 a257 | Class a214 | a258 a266 | a258 a272 | a258 a278 | a258 a284 | SpasiAtauKosong a285 | VarAtauKonstanta a287 | VarAtauKonstanta a288 | VarAtauKonstanta a286 | VarAtauKonstanta a289 | Boolean SpasiAtauKosong | SpasiAtauKosong Boolean | Import a290 | Import a296 | From a300 | Var a302 | Var a187 | Var a303 | S a214 | newLine S
 newLine -> ';'
 newLineAtauKosong -> ';'
 HeaderDef -> Def a214 | Def a215 | Def a217
-a469 -> a20 a201
+a467 -> a20 a201
+a468 -> SpasiAtauKosong a467
+a469 -> Parameter a468
 a470 -> SpasiAtauKosong a469
-a471 -> Parameter a470
-a472 -> SpasiAtauKosong a471
-a473 -> a19 a472
-a474 -> Var a473
-a475 -> Spasi a474
-a476 -> a190 a475
-a477 -> a5 a476
-a478 -> Parameter a408
-a479 -> a19 a478
-a480 -> Var a479
-a481 -> Spasi a480
-a482 -> a190 a481
-a483 -> a5 a482
-a484 -> Parameter a469
-a485 -> a19 a484
-a486 -> Var a485
-a487 -> Spasi a486
-a488 -> a190 a487
-a489 -> a5 a488
-a490 -> SpasiAtauKosong a408
-a491 -> Parameter a490
-a492 -> a19 a491
-a493 -> Var a492
-a494 -> Spasi a493
-a495 -> a190 a494
-a496 -> a5 a495
-a497 -> a19 a471
-a498 -> Var a497
-a499 -> Spasi a498
-a500 -> a190 a499
-a501 -> a5 a500
-a502 -> SpasiAtauKosong a478
-a503 -> a19 a502
-a504 -> Var a503
-a505 -> Spasi a504
-a506 -> a190 a505
-a507 -> a5 a506
-a508 -> SpasiAtauKosong a484
-a509 -> a19 a508
-a510 -> Var a509
-a511 -> Spasi a510
-a512 -> a190 a511
-a513 -> a5 a512
-a514 -> SpasiAtauKosong a491
-a515 -> a19 a514
-a516 -> Var a515
-a517 -> Spasi a516
-a518 -> a190 a517
-a519 -> a5 a518
-a520 -> SpasiAtauKosong a470
-a521 -> a19 a520
-a522 -> Var a521
-a523 -> Spasi a522
-a524 -> a190 a523
-a525 -> a5 a524
-a526 -> a19 a408
-a527 -> Var a526
-a528 -> Spasi a527
-a529 -> a190 a528
-a530 -> a5 a529
-a531 -> a19 a469
-a532 -> Var a531
-a533 -> Spasi a532
-a534 -> a190 a533
-a535 -> a5 a534
-a536 -> a19 a490
-a537 -> Var a536
-a538 -> Spasi a537
-a539 -> a190 a538
-a540 -> a5 a539
-a541 -> a19 a470
-a542 -> Var a541
-a543 -> Spasi a542
-a544 -> a190 a543
-a545 -> a5 a544
-a546 -> SpasiAtauKosong a490
-a547 -> a19 a546
-a548 -> Var a547
-a549 -> Spasi a548
-a550 -> a190 a549
-a551 -> a5 a550
-Def -> a404 a477 | a404 a483 | a404 a489 | a404 a496 | a404 a501 | a404 a507 | a404 a513 | a404 a519 | a404 a525 | a404 a530 | a404 a535 | a404 a540 | a404 a545 | a404 a551
-a552 -> Spasi Return0
-a553 -> a57 a552
-a554 -> a3 a553
-a555 -> a4 a554
-a556 -> a231 a555
-a557 -> a5 a556
-a558 -> a3 a557
-Return -> SpasiAtauKosong a558 | a3 a557
-a559 -> SpasiAtauKosong Parambanyak
-Parameter -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var a559 | Var a182 | Var a183 | Var a181 | Var a184 | Assignment a559 | Var Parambanyak | Assignment Parambanyak
-a560 -> SpasiAtauKosong Var
-a561 -> Var a559
+a471 -> a19 a470
+a472 -> Var a471
+a473 -> Spasi a472
+a474 -> a190 a473
+a475 -> a5 a474
+a476 -> Parameter a405
+a477 -> a19 a476
+a478 -> Var a477
+a479 -> Spasi a478
+a480 -> a190 a479
+a481 -> a5 a480
+a482 -> Parameter a467
+a483 -> a19 a482
+a484 -> Var a483
+a485 -> Spasi a484
+a486 -> a190 a485
+a487 -> a5 a486
+a488 -> SpasiAtauKosong a405
+a489 -> Parameter a488
+a490 -> a19 a489
+a491 -> Var a490
+a492 -> Spasi a491
+a493 -> a190 a492
+a494 -> a5 a493
+a495 -> a19 a469
+a496 -> Var a495
+a497 -> Spasi a496
+a498 -> a190 a497
+a499 -> a5 a498
+a500 -> SpasiAtauKosong a476
+a501 -> a19 a500
+a502 -> Var a501
+a503 -> Spasi a502
+a504 -> a190 a503
+a505 -> a5 a504
+a506 -> SpasiAtauKosong a482
+a507 -> a19 a506
+a508 -> Var a507
+a509 -> Spasi a508
+a510 -> a190 a509
+a511 -> a5 a510
+a512 -> SpasiAtauKosong a489
+a513 -> a19 a512
+a514 -> Var a513
+a515 -> Spasi a514
+a516 -> a190 a515
+a517 -> a5 a516
+a518 -> SpasiAtauKosong a468
+a519 -> a19 a518
+a520 -> Var a519
+a521 -> Spasi a520
+a522 -> a190 a521
+a523 -> a5 a522
+a524 -> a19 a405
+a525 -> Var a524
+a526 -> Spasi a525
+a527 -> a190 a526
+a528 -> a5 a527
+a529 -> a19 a467
+a530 -> Var a529
+a531 -> Spasi a530
+a532 -> a190 a531
+a533 -> a5 a532
+a534 -> a19 a488
+a535 -> Var a534
+a536 -> Spasi a535
+a537 -> a190 a536
+a538 -> a5 a537
+a539 -> a19 a468
+a540 -> Var a539
+a541 -> Spasi a540
+a542 -> a190 a541
+a543 -> a5 a542
+a544 -> SpasiAtauKosong a488
+a545 -> a19 a544
+a546 -> Var a545
+a547 -> Spasi a546
+a548 -> a190 a547
+a549 -> a5 a548
+Def -> a400 a475 | a400 a481 | a400 a487 | a400 a494 | a400 a499 | a400 a505 | a400 a511 | a400 a517 | a400 a523 | a400 a528 | a400 a533 | a400 a538 | a400 a543 | a400 a549
+a550 -> Spasi Return0
+a551 -> a57 a550
+a552 -> a3 a551
+a553 -> a4 a552
+a554 -> a227 a553
+a555 -> a5 a554
+a556 -> a3 a555
+Return -> SpasiAtauKosong a556 | a3 a555
+a557 -> SpasiAtauKosong Parambanyak
+Parameter -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var a557 | Var a182 | Var a183 | Var a181 | Var a184 | Assignment a557 | Var Parambanyak | Assignment Parambanyak
+a558 -> SpasiAtauKosong Var
+a559 -> Var a557
+a560 -> SpasiAtauKosong a559
+a561 -> Var Parambanyak
 a562 -> SpasiAtauKosong a561
-a563 -> Var Parambanyak
-a564 -> SpasiAtauKosong a563
-Parambanyak -> a310 a560 | a310 a562 | a310 Var | a310 a563 | a310 a561 | a310 a564
-a565 -> SpasiAtauKosong Return0
-a566 -> a310 a565
+Parambanyak -> a306 a558 | a306 a560 | a306 Var | a306 a561 | a306 a559 | a306 a562
+a563 -> SpasiAtauKosong Return0
+a564 -> a306 a563
+a565 -> SpasiAtauKosong a564
+a566 -> a306 Return0
 a567 -> SpasiAtauKosong a566
-a568 -> a310 Return0
-a569 -> SpasiAtauKosong a568
-Return0 -> a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | Operasi a567 | Operasi a568 | Operasi a566 | Operasi a569 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | VarAtauKonstanta a567 | VarAtauKonstanta a568 | VarAtauKonstanta a566 | VarAtauKonstanta a569
-Return1 -> a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | Operasi a567 | Operasi a568 | Operasi a566 | Operasi a569
-Return2 -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | VarAtauKonstanta a567 | VarAtauKonstanta a568 | VarAtauKonstanta a566 | VarAtauKonstanta a569
-HeaderIf -> If a214 | If a220 | If a224 | a191 a227 | a191 a230
+Return0 -> a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | Operasi a565 | Operasi a566 | Operasi a564 | Operasi a567 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | VarAtauKonstanta a565 | VarAtauKonstanta a566 | VarAtauKonstanta a564 | VarAtauKonstanta a567
+Return1 -> a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | Operasi a565 | Operasi a566 | Operasi a564 | Operasi a567
+Return2 -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Angka Digit | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | Angka a1 | a2 a7 | a8 a14 | a15 a16 | a17 a18 | a19 a27 | Operan a30 | a19 a33 | a19 a35 | a19 a38 | a19 a39 | a19 a41 | a19 a43 | a19 a45 | a19 a26 | a19 a46 | a19 a47 | a19 a48 | a19 a49 | a19 a50 | a19 a51 | a19 a52 | Operan a53 | Operan a29 | Operan a54 | SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132 | SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149 | Var a154 | Var a156 | Var a158 | Var a160 | Var a161 | Var a163 | Var a165 | Var a167 | Var a169 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | a172 a176 | a172 a173 | a172 a177 | a172 a175 | a172 a178 | VarAtauKonstanta a565 | VarAtauKonstanta a566 | VarAtauKonstanta a564 | VarAtauKonstanta a567
+HeaderIf -> If a214 | If a220 | If a224 | a191 a225 | a191 a226
 HeaderElif -> Elif a214 | Elif a220 | Elif a224
-If -> a191 a227 | a191 a230
-a570 -> a191 a227
+If -> a191 a225 | a191 a226
+a568 -> a191 a225
+a569 -> a10 a568
+a570 -> a191 a226
 a571 -> a10 a570
-a572 -> a191 a230
-a573 -> a10 a572
-Elif -> a5 a571 | a5 a573
-a574 -> a5 a201
-a575 -> a11 a574
-a576 -> a10 a575
-a577 -> a5 a576
-a578 -> a5 a200
-a579 -> a11 a578
-a580 -> a10 a579
-a581 -> a5 a580
-Else -> SpasiAtauKosong a577 | a5 a580 | a5 a576 | SpasiAtauKosong a581
+Elif -> a5 a569 | a5 a571
+a572 -> a5 a201
+a573 -> a11 a572
+a574 -> a10 a573
+a575 -> a5 a574
+a576 -> a5 a200
+a577 -> a11 a576
+a578 -> a10 a577
+a579 -> a5 a578
+Else -> SpasiAtauKosong a575 | a5 a578 | a5 a574 | SpasiAtauKosong a579
 None -> SpasiAtauKosong a138 | a133 a141 | a133 a137 | SpasiAtauKosong a142 | SpasiAtauKosong a146 | a133 a148 | a133 a145 | SpasiAtauKosong a149
-With -> a198 a241 | a198 a250 | a198 a255 | a198 a261
+With -> a198 a237 | a198 a246 | a198 a251 | a198 a257
 Open -> SpasiAtauKosong a65 | a55 a70 | a55 a74 | a55 a79 | a55 a82 | a55 a86 | a55 a90 | a55 a94 | a55 a64 | SpasiAtauKosong a95 | SpasiAtauKosong a96 | SpasiAtauKosong a97 | SpasiAtauKosong a98 | SpasiAtauKosong a99 | SpasiAtauKosong a100 | SpasiAtauKosong a101 | SpasiAtauKosong a108 | a55 a112 | a55 a116 | a55 a119 | a55 a123 | a55 a127 | a55 a107 | SpasiAtauKosong a128 | SpasiAtauKosong a129 | SpasiAtauKosong a130 | SpasiAtauKosong a131 | SpasiAtauKosong a132
-HeaderWith -> With a214 | a198 a241 | a198 a250 | a198 a255 | a198 a261
-Class -> a262 a270 | a262 a276 | a262 a282 | a262 a288
-a582 -> Parameter a151
+HeaderWith -> With a214 | a198 a237 | a198 a246 | a198 a251 | a198 a257
+Class -> a258 a266 | a258 a272 | a258 a278 | a258 a284
+a580 -> Parameter a151
+a581 -> SpasiAtauKosong a580
+a582 -> a19 a581
 a583 -> SpasiAtauKosong a582
-a584 -> a19 a583
-a585 -> SpasiAtauKosong a584
-a586 -> Var a585
-a587 -> Parameter a150
-a588 -> a19 a587
-a589 -> a19 a582
-a590 -> SpasiAtauKosong a587
-a591 -> a19 a590
-a592 -> SpasiAtauKosong a588
-a593 -> SpasiAtauKosong a589
-a594 -> SpasiAtauKosong a591
-a595 -> Var a67
-a596 -> Var a588
-a597 -> Var a71
+a584 -> Var a583
+a585 -> Parameter a150
+a586 -> a19 a585
+a587 -> a19 a580
+a588 -> SpasiAtauKosong a585
+a589 -> a19 a588
+a590 -> SpasiAtauKosong a586
+a591 -> SpasiAtauKosong a587
+a592 -> SpasiAtauKosong a589
+a593 -> Var a67
+a594 -> Var a586
+a595 -> Var a71
+a596 -> Var a587
+a597 -> Var a76
 a598 -> Var a589
-a599 -> Var a76
-a600 -> Var a591
-a601 -> Var a60
-a602 -> Var a584
-a603 -> Var a83
-a604 -> Var a592
-a605 -> Var a87
-a606 -> Var a593
-a607 -> Var a91
-a608 -> Var a594
-a609 -> Var a61
-a610 -> SpasiAtauKosong a169
-a611 -> Var a610
-a612 -> SpasiAtauKosong a170
-a613 -> SpasiAtauKosong a171
-a614 -> Var a109
-a615 -> Var a170
-a616 -> Var a113
-a617 -> Var a171
-a618 -> Var a103
-a619 -> Var a169
-a620 -> Var a120
-a621 -> Var a612
-a622 -> Var a124
-a623 -> Var a613
-a624 -> Var a104
-NamaClass1 -> SpasiAtauKosong a586 | Var a67 | Var a588 | Var a71 | Var a589 | Var a76 | Var a591 | Var a60 | Var a584 | Var a83 | Var a592 | Var a87 | Var a593 | Var a91 | Var a594 | Var a61 | Var a585 | SpasiAtauKosong a595 | SpasiAtauKosong a596 | SpasiAtauKosong a597 | SpasiAtauKosong a598 | SpasiAtauKosong a599 | SpasiAtauKosong a600 | SpasiAtauKosong a601 | SpasiAtauKosong a602 | SpasiAtauKosong a603 | SpasiAtauKosong a604 | SpasiAtauKosong a605 | SpasiAtauKosong a606 | SpasiAtauKosong a607 | SpasiAtauKosong a608 | SpasiAtauKosong a609 | SpasiAtauKosong a611 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | Var a169 | Var a120 | Var a612 | Var a124 | Var a613 | Var a104 | Var a610 | SpasiAtauKosong a614 | SpasiAtauKosong a615 | SpasiAtauKosong a616 | SpasiAtauKosong a617 | SpasiAtauKosong a618 | SpasiAtauKosong a619 | SpasiAtauKosong a620 | SpasiAtauKosong a621 | SpasiAtauKosong a622 | SpasiAtauKosong a623 | SpasiAtauKosong a624
-a625 -> Var SpasiAtauKosong
-NamaClass2 -> SpasiAtauKosong a625 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var SpasiAtauKosong | SpasiAtauKosong Var
-NamaClass -> SpasiAtauKosong a586 | Var a67 | Var a588 | Var a71 | Var a589 | Var a76 | Var a591 | Var a60 | Var a584 | Var a83 | Var a592 | Var a87 | Var a593 | Var a91 | Var a594 | Var a61 | Var a585 | SpasiAtauKosong a595 | SpasiAtauKosong a596 | SpasiAtauKosong a597 | SpasiAtauKosong a598 | SpasiAtauKosong a599 | SpasiAtauKosong a600 | SpasiAtauKosong a601 | SpasiAtauKosong a602 | SpasiAtauKosong a603 | SpasiAtauKosong a604 | SpasiAtauKosong a605 | SpasiAtauKosong a606 | SpasiAtauKosong a607 | SpasiAtauKosong a608 | SpasiAtauKosong a609 | SpasiAtauKosong a611 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | Var a169 | Var a120 | Var a612 | Var a124 | Var a613 | Var a104 | Var a610 | SpasiAtauKosong a614 | SpasiAtauKosong a615 | SpasiAtauKosong a616 | SpasiAtauKosong a617 | SpasiAtauKosong a618 | SpasiAtauKosong a619 | SpasiAtauKosong a620 | SpasiAtauKosong a621 | SpasiAtauKosong a622 | SpasiAtauKosong a623 | SpasiAtauKosong a624 | SpasiAtauKosong a625 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var SpasiAtauKosong | SpasiAtauKosong Var
-HeaderClass -> Class a214 | a262 a270 | a262 a276 | a262 a282 | a262 a288
-HeaderImport -> Import a297 | Import a303 | From a307
-a626 -> 'm'
-a627 -> a3 a231
-a628 -> a55 a627
-a629 -> a56 a628
-a630 -> a626 a629
-Import -> a191 a630
-a631 -> a55 a626
-a632 -> a3 a631
-From -> a190 a632
-NamaModule -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var a316
+a599 -> Var a60
+a600 -> Var a582
+a601 -> Var a83
+a602 -> Var a590
+a603 -> Var a87
+a604 -> Var a591
+a605 -> Var a91
+a606 -> Var a592
+a607 -> Var a61
+a608 -> SpasiAtauKosong a169
+a609 -> Var a608
+a610 -> SpasiAtauKosong a170
+a611 -> SpasiAtauKosong a171
+a612 -> Var a109
+a613 -> Var a170
+a614 -> Var a113
+a615 -> Var a171
+a616 -> Var a103
+a617 -> Var a169
+a618 -> Var a120
+a619 -> Var a610
+a620 -> Var a124
+a621 -> Var a611
+a622 -> Var a104
+NamaClass1 -> SpasiAtauKosong a584 | Var a67 | Var a586 | Var a71 | Var a587 | Var a76 | Var a589 | Var a60 | Var a582 | Var a83 | Var a590 | Var a87 | Var a591 | Var a91 | Var a592 | Var a61 | Var a583 | SpasiAtauKosong a593 | SpasiAtauKosong a594 | SpasiAtauKosong a595 | SpasiAtauKosong a596 | SpasiAtauKosong a597 | SpasiAtauKosong a598 | SpasiAtauKosong a599 | SpasiAtauKosong a600 | SpasiAtauKosong a601 | SpasiAtauKosong a602 | SpasiAtauKosong a603 | SpasiAtauKosong a604 | SpasiAtauKosong a605 | SpasiAtauKosong a606 | SpasiAtauKosong a607 | SpasiAtauKosong a609 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | Var a169 | Var a120 | Var a610 | Var a124 | Var a611 | Var a104 | Var a608 | SpasiAtauKosong a612 | SpasiAtauKosong a613 | SpasiAtauKosong a614 | SpasiAtauKosong a615 | SpasiAtauKosong a616 | SpasiAtauKosong a617 | SpasiAtauKosong a618 | SpasiAtauKosong a619 | SpasiAtauKosong a620 | SpasiAtauKosong a621 | SpasiAtauKosong a622
+a623 -> Var SpasiAtauKosong
+NamaClass2 -> SpasiAtauKosong a623 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var SpasiAtauKosong | SpasiAtauKosong Var
+NamaClass -> SpasiAtauKosong a584 | Var a67 | Var a586 | Var a71 | Var a587 | Var a76 | Var a589 | Var a60 | Var a582 | Var a83 | Var a590 | Var a87 | Var a591 | Var a91 | Var a592 | Var a61 | Var a583 | SpasiAtauKosong a593 | SpasiAtauKosong a594 | SpasiAtauKosong a595 | SpasiAtauKosong a596 | SpasiAtauKosong a597 | SpasiAtauKosong a598 | SpasiAtauKosong a599 | SpasiAtauKosong a600 | SpasiAtauKosong a601 | SpasiAtauKosong a602 | SpasiAtauKosong a603 | SpasiAtauKosong a604 | SpasiAtauKosong a605 | SpasiAtauKosong a606 | SpasiAtauKosong a607 | SpasiAtauKosong a609 | Var a109 | Var a170 | Var a113 | Var a171 | Var a103 | Var a169 | Var a120 | Var a610 | Var a124 | Var a611 | Var a104 | Var a608 | SpasiAtauKosong a612 | SpasiAtauKosong a613 | SpasiAtauKosong a614 | SpasiAtauKosong a615 | SpasiAtauKosong a616 | SpasiAtauKosong a617 | SpasiAtauKosong a618 | SpasiAtauKosong a619 | SpasiAtauKosong a620 | SpasiAtauKosong a621 | SpasiAtauKosong a622 | SpasiAtauKosong a623 | ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var SpasiAtauKosong | SpasiAtauKosong Var
+HeaderClass -> Class a214 | a258 a266 | a258 a272 | a258 a278 | a258 a284
+HeaderImport -> Import a290 | Import a296 | From a300
+a624 -> 'm'
+a625 -> a3 a227
+a626 -> a55 a625
+a627 -> a56 a626
+a628 -> a624 a627
+Import -> a191 a628
+a629 -> a55 a624
+a630 -> a3 a629
+From -> a190 a630
+NamaModule -> ListKarakterA Var | ListKarakterA Subvar | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | '_' | Var a312
