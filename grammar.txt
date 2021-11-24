@@ -52,7 +52,9 @@ Boolean1 -> VarAtauKonstanta SpasiAtauKosong PembandingBoolean SpasiAtauKosong V
 Boolean2 -> VarAtauKonstanta
 Boolean3 -> VarAtauKonstanta SpasiAtauKosong PembandingBoolean SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong Operasi SpasiAtauKosong VarAtauKonstanta
 Boolean4 -> VarAtauKonstanta SpasiAtauKosong Operasi SpasiAtauKosong VarAtauKonstanta SpasiAtauKosong PembandingBoolean SpasiAtauKosong VarAtauKonstanta
-Boolean -> Boolean1 | Boolean2 | Boolean3 | Boolean4
+Boolean0 -> Boolean1 | Boolean2 | Boolean3 | Boolean4
+Boolean -> Boolean0 | SpasiAtauKosong '(' SpasiAtauKosong Boolean SpasiAtauKosong ')' SpasiAtauKosong BooleanAtauKosong
+BooleanAtauKosong -> Boolean Boolean | EEE
 
 PembandingBoolean -> '<' | '>' | '<' '=' | '>' '=' | '=' '=' | '!' '=' | 'a' 'n' 'd' | 'o' 'r' | '|' | '&' | 'i' 's' | 'i' 'n'
 
