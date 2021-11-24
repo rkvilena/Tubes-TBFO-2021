@@ -1,2 +1,3 @@
-if (x>1==True) :
-    print(x)
+def jun():
+    if (x and (y>=2)):
+        return x
